@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import HeroStats from '@/components/landing/hero-stats';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
+  const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
 
   return (
-    <section className="relative h-[90vh] min-h-[700px] flex items-center justify-center text-center text-white overflow-hidden">
+    <section className="relative h-screen min-h-[800px] flex items-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -18,27 +19,64 @@ export default function Hero() {
           data-ai-hint={heroImage.imageHint}
         />
       )}
-      <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
-      <div className="absolute inset-0 bg-black/40" />
+      <div 
+        className="absolute inset-0 opacity-20"
+        style={{
+          backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/001/944/833/original/blueprint-technical-drawing-background-vector.jpg')",
+          backgroundSize: 'cover'
+        }}
+      />
+      <div className="absolute inset-0 bg-background/80" />
 
-      <div className="relative z-10 container flex flex-col items-center gap-8">
-        <div className="max-w-4xl">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter !leading-tight">
-            Pioneering the Future of <span className="text-primary">Engineering</span> Solutions
+      <div className="relative z-10 container grid md:grid-cols-2 gap-8 items-center">
+        <div className="max-w-xl">
+          <p className="text-sm font-semibold tracking-widest text-foreground/70 uppercase">Professional. Innovative. Reliable.</p>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mt-4 !leading-tight">
+            Exceptional Service Exceeding Expectations
           </h1>
-          <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground md:text-xl">
-            EnVision Engineering delivers innovative and sustainable solutions across a spectrum of industries, turning complex challenges into landmarks of progress.
+          <p className="mt-6 text-lg text-muted-foreground">
+            Our civil and structural team is committed to providing sustainable, creative & efficient engineering solutions for our communities
           </p>
+          <Button size="lg" className="mt-8 rounded-none">
+            CONSULT NOW
+          </Button>
         </div>
-
-        <div className="max-w-md w-full">
-            <HeroStats />
+        <div className="relative flex flex-col items-start md:items-end justify-end h-full pt-20">
+          <div className="text-left md:text-right space-y-8">
+            <div>
+              <p className="text-5xl lg:text-6xl font-bold text-primary">128+</p>
+              <p className="text-muted-foreground mt-1">Projects / Year</p>
+            </div>
+            <div>
+              <p className="text-5xl lg:text-6xl font-bold text-primary">4.253</p>
+              <p className="text-muted-foreground mt-1">Million euros turnover in 2020</p>
+            </div>
+          </div>
         </div>
-
-        <Button size="lg" className="mt-4">
-          Explore Our Work
-        </Button>
       </div>
+      
+      {cardImage && (
+        <div className="hidden md:block absolute bottom-16 right-16 z-20 bg-card/80 backdrop-blur-sm p-6 max-w-xs shadow-lg border border-border/20">
+            <div className="flex gap-4">
+                <div>
+                    <h3 className="font-bold text-lg">Residential House</h3>
+                    <p className="text-primary font-bold text-2xl mt-2">78 000 M²</p>
+                    <p className="text-muted-foreground text-sm">Amount work done</p>
+                    <a href="#" className="flex items-center gap-2 text-sm font-semibold text-primary mt-4">
+                        DETAILS <ArrowRight className="w-4 h-4" />
+                    </a>
+                </div>
+                <Image 
+                    src={cardImage.imageUrl}
+                    alt={cardImage.description}
+                    width={100}
+                    height={100}
+                    className="object-cover"
+                    data-ai-hint={cardImage.imageHint}
+                />
+            </div>
+        </div>
+      )}
     </section>
   );
 }

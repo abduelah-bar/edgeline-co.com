@@ -2,81 +2,15 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "A modern architectural building at dusk.",
-      "imageUrl": "https://images.unsplash.com/photo-1663940019982-c14294717dbd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcmNoaXRlY3R1cmUlMjBidWlsZGluZ3xlbnwwfHx8fDE3NjkzMjE0Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "architecture building"
+      "description": "A modern architectural building with sharp angles.",
+      "imageUrl": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzEwODU4ODg5fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "imageHint": "modern architecture"
     },
     {
-      "id": "project-1",
-      "description": "A large suspension bridge during the day.",
-      "imageUrl": "https://images.unsplash.com/photo-1711733050507-f3bd06c4c3f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnJpZGdlJTIwYXJjaGl0ZWN0dXJlfGVufDB8fHx8MTc2OTMzNzYyOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bridge architecture"
-    },
-    {
-      "id": "project-2",
-      "description": "An industrial processing plant.",
-      "imageUrl": "https://images.unsplash.com/photo-1717386255773-1e3037c81788?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxpbmR1c3RyaWFsJTIwcGxhbnR8ZW58MHx8fHwxNzY5MzU5MTQ3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "industrial plant"
-    },
-    {
-      "id": "project-3",
-      "description": "A skyscraper under construction.",
-      "imageUrl": "https://images.unsplash.com/photo-1634250878303-0c059dc54c4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxza3lzY3JhcGVyJTIwY29uc3RydWN0aW9ufGVufDB8fHx8MTc2OTM2OTQzMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skyscraper construction"
-    },
-    {
-      "id": "project-4",
-      "description": "A modern office building facade.",
-      "imageUrl": "https://images.unsplash.com/photo-1576731753569-3e93a228048c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzY5MjgyODIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "office building"
-    },
-    {
-      "id": "map-background",
-      "description": "A stylized dark world map.",
-      "imageUrl": "https://images.unsplash.com/photo-1524661135-423995f22d0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMG1hcHxlbnwwfHx8fDE3NjkzMTYxMTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "world map"
-    },
-    {
-      "id": "team-member-1",
-      "description": "Professional headshot of a smiling woman.",
-      "imageUrl": "https://images.unsplash.com/photo-1609505848912-b7c3b8b4beda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2OTMxNDAwNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman portrait"
-    },
-    {
-      "id": "team-member-2",
-      "description": "Professional headshot of a smiling man.",
-      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzY5MzUyMTUwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "man portrait"
-    },
-    {
-      "id": "team-member-3",
-      "description": "Professional headshot of a person with glasses.",
-      "imageUrl": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwZXJzb24lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjkyODc2NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "person portrait"
-    },
-    {
-      "id": "team-member-4",
-      "description": "Professional headshot of a woman in a suit.",
-      "imageUrl": "https://images.unsplash.com/photo-1571513722275-4b41940f54b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHN1aXR8ZW58MHx8fHwxNzY5MzY5NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "woman suit"
-    },
-    {
-      "id": "blog-1",
-      "description": "An engineer working on blueprints.",
-      "imageUrl": "https://images.unsplash.com/photo-1682084252808-7b147ffbdbb9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxlbmdpbmVlciUyMGJsdWVwcmludHN8ZW58MHx8fHwxNzY5MzY5NDMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "engineer blueprints"
-    },
-    {
-      "id": "blog-2",
-      "description": "A close-up of a complex machine.",
-      "imageUrl": "https://images.unsplash.com/photo-1582043568773-a7a2b57239f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtYWNoaW5lJTIwZGV0YWlsfGVufDB8fHx8MTc2OTM2OTQzMXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "machine detail"
-    },
-    {
-      "id": "blog-3",
-      "description": "A sustainable green building with solar panels.",
-      "imageUrl": "https://images.unsplash.com/photo-1560557102-b14bfc6b1988?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncmVlbiUyMGJ1aWxkaW5nfGVufDB8fHx8MTc2OTI3MDQ0OXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "green building"
+      "id": "residential-house-card",
+      "description": "A modern architectural building with sharp angles.",
+      "imageUrl": "https://images.unsplash.com/photo-1487958449943-2429e8be8625?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsJTIwYnVpbGRpbmd8ZW58MHx8fHwxNzEwODU4ODg5fDA&ixlib=rb-4.0.3&q=80&w=400",
+      "imageHint": "modern architecture"
     }
   ]
 }

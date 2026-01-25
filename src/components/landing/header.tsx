@@ -7,10 +7,13 @@ import { Button } from '@/components/ui/button';
 import Logo from '@/components/landing/logo';
 
 const navLinks = [
-  { href: '#services', label: 'Services' },
-  { href: '#projects', label: 'Projects' },
-  { href: '#team', label: 'Team' },
+  { href: '#about', label: 'ABOUT' },
+  { href: '#services', label: 'SERVICES' },
+  { href: '#projects', label: 'PROJECTS' },
+  { href: '#team', label: 'TEAM' },
   { href: '#faq', label: 'FAQ' },
+  { href: '#blog', label: 'BLOG' },
+  { href: '#contacts', label: 'CONTACTS' },
 ];
 
 export default function Header() {
@@ -31,26 +34,25 @@ export default function Header() {
         isScrolled ? 'bg-background/80 backdrop-blur-lg border-b border-border/50' : 'bg-transparent'
       }`}
     >
-      <div className="container flex h-16 items-center">
-        <Link href="/" className="mr-6 flex items-center gap-2">
-          <Logo className="h-8 w-8 text-primary" />
-          <span className="hidden font-bold sm:inline-block text-lg">
-            EnVision Engineering
+      <div className="container flex h-20 items-center">
+        <Link href="/" className="mr-6 flex items-center gap-3">
+          <Logo className="h-7 w-7 text-accent" />
+          <span className="font-bold sm:inline-block text-xl">
+            Axial Construct
           </span>
         </Link>
-        <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <nav className="hidden md:flex items-center space-x-8 text-sm font-medium ml-auto">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="transition-colors hover:text-primary"
+              className="transition-colors hover:text-primary text-foreground/80"
             >
               {link.label}
             </Link>
           ))}
         </nav>
-        <div className="flex flex-1 items-center justify-end space-x-4">
-          <Button>Contact Us</Button>
+        <div className="flex flex-1 items-center justify-end space-x-4 md:hidden">
           <button
             className="md:hidden"
             onClick={() => setIsOpen(!isOpen)}
