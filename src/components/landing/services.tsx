@@ -1,3 +1,4 @@
+'use client';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Building, Wrench, HardHat, Scaling } from 'lucide-react';
 import { Section } from './section';
