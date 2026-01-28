@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { Section } from './section';
+import { AnimatedWrapper } from './animated-wrapper';
 
 const faqs = [
   {
@@ -29,22 +30,26 @@ export default function Faq() {
   return (
     <Section id="faq" className="bg-card">
       <div className="grid md:grid-cols-2 gap-12">
-        <div>
-          <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
-            Find quick answers to common inquiries about our services and process.
-          </p>
-        </div>
+        <AnimatedWrapper>
+          <div>
+            <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Find quick answers to common inquiries about our services and process.
+            </p>
+          </div>
+        </AnimatedWrapper>
         <Accordion type="single" collapsible className="w-full">
           {faqs.map((faq, index) => (
-            <AccordionItem key={index} value={`item-${index}`}>
-              <AccordionTrigger className="text-left text-lg hover:text-primary">
-                {faq.question}
-              </AccordionTrigger>
-              <AccordionContent className="text-base text-muted-foreground">
-                {faq.answer}
-              </AccordionContent>
-            </AccordionItem>
+            <AnimatedWrapper key={index} delay={index * 0.1}>
+              <AccordionItem value={`item-${index}`}>
+                <AccordionTrigger className="text-left text-lg hover:text-primary">
+                  {faq.question}
+                </AccordionTrigger>
+                <AccordionContent className="text-base text-muted-foreground">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            </AnimatedWrapper>
           ))}
         </Accordion>
       </div>
