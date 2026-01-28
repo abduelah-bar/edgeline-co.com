@@ -29,12 +29,12 @@ const faqs = [
 
 export default function Faq() {
   return (
-    <Section id="faq" className="bg-card">
+    <Section id="faq" className="bg-white">
       <div className="grid md:grid-cols-2 gap-12">
         <AnimatedWrapper>
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold">Frequently Asked Questions</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
+            <p className="mt-4 text-lg text-gray-600">
               Find quick answers to common inquiries about our services and process.
             </p>
           </div>
@@ -43,10 +43,10 @@ export default function Faq() {
           {faqs.map((faq, index) => (
             <AnimatedWrapper key={index} delay={index * 0.1}>
               <AccordionItem value={`item-${index}`}>
-                <AccordionTrigger className="text-left text-lg hover:text-primary">
+                <AccordionTrigger className="text-left text-lg text-gray-800 hover:text-primary">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base text-muted-foreground">
+                <AccordionContent className="text-base text-gray-600">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

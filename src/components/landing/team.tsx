@@ -21,11 +21,11 @@ const teamMembers = teamMembersData.map(member => ({
 
 export default function Team() {
   return (
-    <Section id="team">
+    <Section id="team" className="bg-white">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Meet Our Leadership</h2>
-          <p className="mt-4 text-lg text-muted-foreground">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Meet Our Leadership</h2>
+          <p className="mt-4 text-lg text-gray-600">
             The brilliant minds turning vision into reality.
           </p>
         </div>
@@ -45,15 +45,15 @@ export default function Team() {
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-xl">{member.name}</CardTitle>
+                  <CardTitle className="text-xl text-gray-900">{member.name}</CardTitle>
                   <CardDescription className="text-primary">{member.title}</CardDescription>
                 </CardHeader>
                 <div className="flex justify-center gap-4 mt-2">
                   <Link href="#" aria-label={`${member.name} on LinkedIn`}>
-                    <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+                    <Linkedin className="h-5 w-5 text-gray-500 hover:text-primary transition-colors" />
                   </Link>
                   <Link href="#" aria-label={`${member.name} on Twitter`}>
-                    <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
+                    <Twitter className="h-5 w-5 text-gray-500 hover:text-primary transition-colors" />
                   </Link>
                 </div>
               </CardContent>

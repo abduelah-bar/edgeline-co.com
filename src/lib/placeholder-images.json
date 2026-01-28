@@ -80,8 +80,8 @@
     },
     {
       "id": "map-background",
-      "description": "A dark silhouette of a world map on a white background.",
-      "imageUrl": "https://images.unsplash.com/photo-1543288992-885489f46b38?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3JsZCUyMG1hcCUyMGRhcmt8ZW58MHx8fHwxNzEwODU4ODg5fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "description": "A dark world map with glowing points.",
+      "imageUrl": "https://images.unsplash.com/photo-1563212896-370500196172?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "imageHint": "dark map"
     }
   ]

@@ -32,7 +32,7 @@ export default function Map() {
   };
 
   return (
-    <Section id="map" className="bg-white text-gray-800">
+    <Section id="map" className="bg-background">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <AnimatedWrapper>
           <div className="relative aspect-square md:aspect-[4/3] w-full">
@@ -74,10 +74,10 @@ export default function Map() {
               <div>
                    <div className="flex items-center gap-2">
                      <div className="w-8 h-0.5 bg-primary" />
-                     <p className="text-sm font-semibold tracking-widest text-gray-500 uppercase">WHERE WE WORK</p>
+                     <p className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">WHERE WE WORK</p>
                    </div>
-                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-gray-900">Our <span className="text-accent">Project</span> in the World</h2>
-                   <p className="mt-4 text-base text-gray-600">
+                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-foreground">Our <span className="text-accent">Project</span> in the World</h2>
+                   <p className="mt-4 text-base text-muted-foreground">
                       Molestie nunc non blandit massa. Lacus sed viverra tellus in hac habitasse platea. Velit egestas dui id ornare arcu. Sapien pellentesque habitant morbi tristique senectus et netus.
                    </p>
               </div>
@@ -86,13 +86,13 @@ export default function Map() {
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={200} />+
                       </p>
-                      <p className="text-gray-600 mt-1 font-medium">Active Projects in Civil Engineering</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Active Projects in Civil Engineering</p>
                   </div>
                   <div className="text-left">
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={99} />%
                       </p>
-                      <p className="text-gray-600 mt-1 font-medium">Building Control Approval Rate</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Building Control Approval Rate</p>
                   </div>
               </div>
               <Button size="lg" className="mt-4 rounded-none self-start">
