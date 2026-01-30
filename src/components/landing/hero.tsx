@@ -69,7 +69,7 @@ export default function Hero() {
       </div>
       
       {cardImage && (
-        <AnimatedWrapper className="hidden md:block absolute bottom-16 right-16 z-20" delay={0.6}>
+        <AnimatedWrapper className="hidden md:block absolute bottom-12 right-16 z-20" delay={0.6}>
           <div className="bg-card/80 backdrop-blur-sm p-6 max-w-xs shadow-lg border border-border/20">
               <div className="flex gap-4">
                   <div>
