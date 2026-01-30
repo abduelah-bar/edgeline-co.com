@@ -8,10 +8,10 @@ import Link from 'next/link';
 import { AnimatedWrapper } from './animated-wrapper';
 
 const teamMembersData = [
-  { id: 'team-member-1', name: 'Dr. Evelyn Reed', title: 'CEO & Chief Engineer' },
-  { id: 'team-member-2', name: 'Marcus Chen', title: 'Head of Structural Design' },
-  { id: 'team-member-3', name: 'Alina Petrova', title: 'Director of Process Engineering' },
-  { id: 'team-member-4', name: 'David Lee', title: 'VP of Project Management' },
+  { id: 'team-member-1', name: 'Test-Team-Member-1', title: 'Test-Team-Role-1' },
+  { id: 'team-member-2', name: 'Test-Team-Member-2', title: 'Test-Team-Role-2' },
+  { id: 'team-member-3', name: 'Test-Team-Member-3', title: 'Test-Team-Role-3' },
+  { id: 'team-member-4', name: 'Test-Team-Member-4', title: 'Test-Team-Role-4' },
 ];
 
 const teamMembers = teamMembersData.map(member => ({
@@ -21,12 +21,12 @@ const teamMembers = teamMembersData.map(member => ({
 
 export default function Team() {
   return (
-    <Section id="team" className="bg-white">
+    <Section id="team" className="bg-background">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Meet Our Leadership</h2>
-          <p className="mt-4 text-lg text-gray-600">
-            The brilliant minds turning vision into reality.
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Test-Team-Title</h2>
+          <p className="mt-4 text-lg text-muted-foreground">
+            Test-Team-Subtitle
           </p>
         </div>
       </AnimatedWrapper>
@@ -45,15 +45,15 @@ export default function Team() {
                   />
                 </div>
                 <CardHeader className="p-4">
-                  <CardTitle className="text-xl text-gray-900">{member.name}</CardTitle>
+                  <CardTitle className="text-xl text-foreground">{member.name}</CardTitle>
                   <CardDescription className="text-primary">{member.title}</CardDescription>
                 </CardHeader>
                 <div className="flex justify-center gap-4 mt-2">
                   <Link href="#" aria-label={`${member.name} on LinkedIn`}>
-                    <Linkedin className="h-5 w-5 text-gray-500 hover:text-primary transition-colors" />
+                    <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
                   <Link href="#" aria-label={`${member.name} on Twitter`}>
-                    <Twitter className="h-5 w-5 text-gray-500 hover:text-primary transition-colors" />
+                    <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary transition-colors" />
                   </Link>
                 </div>
               </CardContent>

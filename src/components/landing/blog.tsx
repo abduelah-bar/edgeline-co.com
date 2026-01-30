@@ -10,18 +10,18 @@ import { AnimatedWrapper } from './animated-wrapper';
 const blogPostsData = [
   { 
     id: 'blog-1', 
-    title: 'The Future of Sustainable Infrastructure', 
-    description: 'Exploring the innovative materials and methods shaping the green cities of tomorrow.' 
+    title: 'Test-Blog-Post-1-Title', 
+    description: 'Test-Blog-Post-1-Desc' 
   },
   { 
     id: 'blog-2', 
-    title: 'AI in Process Engineering: A Revolution in Efficiency', 
-    description: 'How artificial intelligence is optimizing complex industrial processes for unprecedented results.' 
+    title: 'Test-Blog-Post-2-Title', 
+    description: 'Test-Blog-Post-2-Desc' 
   },
   { 
     id: 'blog-3', 
-    title: 'Seismic Retrofitting: Protecting Our Cities', 
-    description: 'A deep dive into the engineering marvels that help buildings withstand earthquakes.' 
+    title: 'Test-Blog-Post-3-Title', 
+    description: 'Test-Blog-Post-3-Desc'
   },
 ];
 
@@ -35,9 +35,9 @@ export default function Blog() {
     <Section id="blog">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">From Our Blog</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Test-Blog-Title</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Insights and innovations from our team of experts.
+            Test-Blog-Subtitle
           </p>
         </div>
       </AnimatedWrapper>
@@ -64,7 +64,7 @@ export default function Blog() {
               </CardDescription>
               <div className="p-6 mt-4">
                 <Link href="#" className="font-semibold text-primary inline-flex items-center gap-2">
-                  Read More <ArrowRight className="h-4 w-4" />
+                  Test-Read-More <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </Card>

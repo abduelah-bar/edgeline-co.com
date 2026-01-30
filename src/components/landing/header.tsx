@@ -6,13 +6,13 @@ import { Menu, X } from 'lucide-react';
 import Logo from '@/components/landing/logo';
 
 const navLinks = [
-  { href: '#about', label: 'ABOUT' },
-  { href: '#services', label: 'SERVICES' },
-  { href: '#projects', label: 'PROJECTS' },
-  { href: '#team', label: 'TEAM' },
-  { href: '#faq', label: 'FAQ' },
-  { href: '#blog', label: 'BLOG' },
-  { href: '#contacts', label: 'CONTACTS' },
+  { href: '#about', label: 'Test-About' },
+  { href: '#services', label: 'Test-Services' },
+  { href: '#projects', label: 'Test-Projects' },
+  { href: '#team', label: 'Test-Team' },
+  { href: '#faq', label: 'Test-FAQ' },
+  { href: '#blog', label: 'Test-Blog' },
+  { href: '#contacts', label: 'Test-Contacts' },
 ];
 
 export default function Header() {
@@ -33,8 +33,7 @@ export default function Header() {
     const targetElement = document.getElementById(targetId);
     
     if (targetElement) {
-        // Calculate offset for sticky header
-        const headerOffset = 80; // height of the header (h-20)
+        const headerOffset = 80; 
         const elementPosition = targetElement.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
@@ -59,7 +58,7 @@ export default function Header() {
         <Link href="/" className="mr-6 flex items-center gap-3">
           <Logo className="h-7 w-7 text-accent" />
           <span className="font-bold sm:inline-block text-xl">
-            Axial Construct
+            Test App
           </span>
         </Link>
         <nav className="hidden md:flex items-center space-x-8 text-sm font-medium ml-auto">

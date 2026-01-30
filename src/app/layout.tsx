@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Axial Construct',
-  description: 'Exceptional Service Exceeding Expectations',
+  title: 'Test Title',
+  description: 'Test Description',
 };
 
 export default function RootLayout({

@@ -10,32 +10,32 @@ import { AnimatedWrapper } from './animated-wrapper';
 
 const faqs = [
   {
-    question: 'What types of engineering services do you offer?',
-    answer: 'We provide a comprehensive range of services including Civil, Structural, and Process Engineering, as well as full-scope Project Management. Our expertise covers everything from initial concept design to final project delivery.',
+    question: 'Test-FAQ-Q1',
+    answer: 'Test-FAQ-A1',
   },
   {
-    question: 'Which industries does EnVision Engineering serve?',
-    answer: 'Our diverse portfolio includes projects in infrastructure, energy, manufacturing, commercial real estate, and public works. We adapt our solutions to meet the unique challenges of each sector.',
+    question: 'Test-FAQ-Q2',
+    answer: 'Test-FAQ-A2',
   },
   {
-    question: 'How do you ensure project quality and safety?',
-    answer: 'Quality and safety are our top priorities. We adhere to stringent international standards, employ rigorous quality control processes, and foster a culture of safety-first on all our project sites.',
+    question: 'Test-FAQ-Q3',
+    answer: 'Test-FAQ-A3',
   },
   {
-    question: 'Can you handle projects outside of your primary locations?',
-    answer: 'Absolutely. While we have major hubs globally, our team is equipped for remote and international project execution. We have successfully completed projects on 6 continents.',
+    question: 'Test-FAQ-Q4',
+    answer: 'Test-FAQ-A4',
   },
 ];
 
 export default function Faq() {
   return (
-    <Section id="faq" className="bg-white">
+    <Section id="faq" className="bg-card">
       <div className="grid md:grid-cols-2 gap-12">
         <AnimatedWrapper>
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Frequently Asked Questions</h2>
-            <p className="mt-4 text-lg text-gray-600">
-              Find quick answers to common inquiries about our services and process.
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Test-FAQ-Title</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              Test-FAQ-Subtitle
             </p>
           </div>
         </AnimatedWrapper>
@@ -43,10 +43,10 @@ export default function Faq() {
           {faqs.map((faq, index) => (
             <AnimatedWrapper key={index} delay={index * 0.1}>
               <AccordionItem value={`item-${index}`}>
-                <AccordionTrigger className="text-left text-lg text-gray-800 hover:text-primary">
+                <AccordionTrigger className="text-left text-lg text-foreground hover:text-primary">
                   {faq.question}
                 </AccordionTrigger>
-                <AccordionContent className="text-base text-gray-600">
+                <AccordionContent className="text-base text-muted-foreground">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>

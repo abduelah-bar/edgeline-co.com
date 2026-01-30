@@ -13,9 +13,9 @@ export default function Projects() {
     <Section id="projects">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Featured Projects</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Test-Projects-Title</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            A glimpse into our commitment to engineering excellence.
+            Test-Projects-Subtitle
           </p>
         </div>
       </AnimatedWrapper>

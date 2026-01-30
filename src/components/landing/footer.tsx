@@ -18,40 +18,40 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
               <Logo className="h-8 w-8 text-primary" />
-              <span className="font-bold text-lg">EnVision Engineering</span>
+              <span className="font-bold text-lg">Test Footer App</span>
             </Link>
             <p className="text-muted-foreground">
-              Pioneering the future of engineering solutions with innovation and integrity.
+              Test-Footer-Tagline
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-semibold">Quick Links</h3>
+              <h3 className="font-semibold">Test-Footer-Links-Title</h3>
               <ul className="mt-4 space-y-2">
-                <li><Link href="#services" className="text-muted-foreground hover:text-primary">Services</Link></li>
-                <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Projects</Link></li>
-                <li><Link href="#team" className="text-muted-foreground hover:text-primary">Team</Link></li>
+                <li><Link href="#services" className="text-muted-foreground hover:text-primary">Test-Link-1</Link></li>
+                <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Test-Link-2</Link></li>
+                <li><Link href="#team" className="text-muted-foreground hover:text-primary">Test-Link-3</Link></li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold">Legal</h3>
+              <h3 className="font-semibold">Test-Footer-Legal-Title</h3>
               <ul className="mt-4 space-y-2">
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Terms of Service</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary">Test-Legal-1</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary">Test-Legal-2</Link></li>
               </ul>
             </div>
              <div>
-              <h3 className="font-semibold">Contact</h3>
+              <h3 className="font-semibold">Test-Footer-Contact-Title</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
-                <li>contact@envision.eng</li>
-                <li>+1 (555) 123-4567</li>
+                <li>test@example.com</li>
+                <li>+1 (555) 555-5555</li>
               </ul>
             </div>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} EnVision Engineering. All rights reserved.
+            &copy; {new Date().getFullYear()} Test App. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socialLinks.map((link) => (

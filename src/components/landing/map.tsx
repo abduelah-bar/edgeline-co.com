@@ -10,12 +10,12 @@ import { Button } from '../ui/button';
 const mapImage = PlaceHolderImages.find(img => img.id === 'map-background');
 
 const locations = [
-  { top: '40%', left: '18%', details: 'Duis aute irure dolor in reprehenderit.' },
-  { top: '60%', left: '28%', details: 'Duis aute irure dolor in reprehenderit.' },
-  { top: '35%', left: '50%', details: 'Duis aute irure dolor in reprehenderit.' },
-  { top: '45%', left: '70%', details: 'Duis aute irure dolor in reprehenderit.' },
-  { top: '75%', left: '55%', details: 'Duis aute irure dolor in reprehenderit.' },
-  { top: '80%', left: '80%', details: 'Duis aute irure dolor in reprehenderit.' },
+  { top: '40%', left: '18%', details: 'Test-Location-Details' },
+  { top: '60%', left: '28%', details: 'Test-Location-Details' },
+  { top: '35%', left: '50%', details: 'Test-Location-Details' },
+  { top: '45%', left: '70%', details: 'Test-Location-Details' },
+  { top: '75%', left: '55%', details: 'Test-Location-Details' },
+  { top: '80%', left: '80%', details: 'Test-Location-Details' },
 ];
 
 type Location = typeof locations[number];
@@ -32,7 +32,7 @@ export default function Map() {
   };
 
   return (
-    <Section id="about" className="bg-background">
+    <Section id="about" className="bg-card">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <AnimatedWrapper>
           <div className="relative aspect-square md:aspect-[4/3] w-full">
@@ -74,11 +74,11 @@ export default function Map() {
               <div>
                    <div className="flex items-center gap-2">
                      <div className="w-8 h-0.5 bg-primary" />
-                     <p className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">WHERE WE WORK</p>
+                     <p className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">Test-Map-Label</p>
                    </div>
-                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-foreground">Our <span className="text-accent">Project</span> in the World</h2>
+                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-foreground">Test <span className="text-accent">Map</span> Title</h2>
                    <p className="mt-4 text-base text-muted-foreground">
-                      Molestie nunc non blandit massa. Lacus sed viverra tellus in hac habitasse platea. Velit egestas dui id ornare arcu. Sapien pellentesque habitant morbi tristique senectus et netus.
+                      Test-Map-Description
                    </p>
               </div>
               <div className="grid grid-cols-2 gap-8">
@@ -86,17 +86,17 @@ export default function Map() {
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={200} />+
                       </p>
-                      <p className="text-muted-foreground mt-1 font-medium">Active Projects in Civil Engineering</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Test-Map-Stat-1</p>
                   </div>
                   <div className="text-left">
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={99} />%
                       </p>
-                      <p className="text-muted-foreground mt-1 font-medium">Building Control Approval Rate</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Test-Map-Stat-2</p>
                   </div>
               </div>
               <Button size="lg" className="mt-4 rounded-none self-start">
-                ABOUT COMPANY
+                Test-Button-About
               </Button>
           </div>
         </AnimatedWrapper>
