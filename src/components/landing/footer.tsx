@@ -12,7 +12,7 @@ const socialLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-card border-t border-border/50">
+    <footer id="contacts" className="bg-card border-t border-border/50">
       <Section className="py-12">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-4">

@@ -3,7 +3,6 @@ import * as React from 'react';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
-import { Button } from '@/components/ui/button';
 import Logo from '@/components/landing/logo';
 
 const navLinks = [
@@ -28,6 +27,28 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.substring(1);
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+        // Calculate offset for sticky header
+        const headerOffset = 80; // height of the header (h-20)
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+        });
+    }
+
+    if (isOpen) {
+      setIsOpen(false);
+    }
+  };
+
   return (
     <header
       className={`sticky top-0 z-50 w-full transition-all duration-300 ${
@@ -43,13 +64,14 @@ export default function Header() {
         </Link>
         <nav className="hidden md:flex items-center space-x-8 text-sm font-medium ml-auto">
           {navLinks.map((link) => (
-            <Link
+            <a
               key={link.href}
               href={link.href}
-              className="transition-colors hover:text-primary text-foreground/80"
+              onClick={(e) => handleNavClick(e, link.href)}
+              className="transition-colors hover:text-primary text-foreground/80 cursor-pointer"
             >
               {link.label}
-            </Link>
+            </a>
           ))}
         </nav>
         <div className="flex flex-1 items-center justify-end space-x-4 md:hidden">
@@ -58,7 +80,7 @@ export default function Header() {
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"
           >
-            <Menu className="h-6 w-6" />
+            {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
       </div>
@@ -67,14 +89,14 @@ export default function Header() {
           <div className="container py-4">
             <nav className="grid gap-4">
               {navLinks.map((link) => (
-                <Link
+                <a
                   key={link.href}
                   href={link.href}
-                  className="text-lg font-medium transition-colors hover:text-primary"
-                  onClick={() => setIsOpen(false)}
+                  className="text-lg font-medium transition-colors hover:text-primary cursor-pointer"
+                  onClick={(e) => handleNavClick(e, link.href)}
                 >
                   {link.label}
-                </Link>
+                </a>
               ))}
             </nav>
           </div>
