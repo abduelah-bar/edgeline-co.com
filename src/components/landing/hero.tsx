@@ -11,7 +11,7 @@ export default function Hero() {
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
 
   return (
-    <section className="relative h-screen min-h-[800px] flex items-center text-white overflow-hidden">
+    <section className="relative h-screen min-h-[800px] flex items-start pt-32 text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
