@@ -1,9 +1,7 @@
 'use client';
 import * as React from 'react';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
-
-import Logo from '@/components/landing/logo';
+import { Menu, X, Building } from 'lucide-react';
 
 const navLinks = [
   { href: '#about', label: 'Test-About' },
@@ -56,7 +54,7 @@ export default function Header() {
     >
       <div className="container flex h-20 items-center">
         <Link href="/" className="mr-6 flex items-center gap-3">
-          <Logo className="h-7 w-7 text-accent" />
+          <Building className="h-7 w-7 text-primary" />
           <span className="font-bold sm:inline-block text-xl">
             ELC COMPANY
           </span>

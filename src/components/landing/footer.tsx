@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import { Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Building } from 'lucide-react';
 import { Section } from './section';
-import Logo from './logo';
 
 const socialLinks = [
   { name: 'Facebook', icon: Facebook, href: '#' },
@@ -17,7 +16,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <Logo className="h-8 w-8 text-primary" />
+              <Building className="h-8 w-8 text-primary" />
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <p className="text-muted-foreground">

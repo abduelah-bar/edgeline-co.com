@@ -10,6 +10,7 @@ import * as React from 'react';
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
+  const logoImage = PlaceHolderImages.find(img => img.id === 'hero-logo');
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -51,9 +52,17 @@ export default function Hero() {
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-          <h1 className="text-6xl md:text-8xl font-extrabold text-primary">
-            Placeholder Logo
-          </h1>
+          {logoImage && (
+            <Image
+              src={logoImage.imageUrl}
+              alt={logoImage.description}
+              width={400}
+              height={400}
+              className="object-contain"
+              priority
+              data-ai-hint={logoImage.imageHint}
+            />
+          )}
         </AnimatedWrapper>
 
         <AnimatedWrapper delay={0.2}>
