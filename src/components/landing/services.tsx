@@ -51,6 +51,9 @@ const services = [
 ];
 
 export default function Services() {
+  const mainServices = services.slice(0, 6);
+  const lastService = services.length > 6 ? services[6] : null;
+
   return (
     <Section id="services" className="bg-card pt-12">
       <AnimatedWrapper>
@@ -62,7 +65,7 @@ export default function Services() {
         </div>
       </AnimatedWrapper>
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {services.map((service, index) => (
+        {mainServices.map((service, index) => (
           <AnimatedWrapper key={index} delay={index * 0.1}>
             <Card className="flex flex-col items-center text-center p-6 bg-background border-none hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 h-full">
               <CardHeader className="items-center p-0">
@@ -76,6 +79,23 @@ export default function Services() {
           </AnimatedWrapper>
         ))}
       </div>
+      {lastService && (
+        <div className="mt-8 flex justify-center">
+          <div className="w-full md:w-1/2 lg:w-1/3">
+            <AnimatedWrapper delay={0.6}>
+              <Card className="flex flex-col items-center text-center p-6 bg-background border-none hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 h-full">
+                <CardHeader className="items-center p-0">
+                  {lastService.icon}
+                  <CardTitle className="mt-4 text-xl text-foreground">{lastService.title}</CardTitle>
+                </CardHeader>
+                <CardDescription className="mt-2 text-base flex-grow text-muted-foreground">
+                  {lastService.description}
+                </CardDescription>
+              </Card>
+            </AnimatedWrapper>
+          </div>
+        </div>
+      )}
     </Section>
   );
 }
