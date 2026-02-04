@@ -30,7 +30,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-screen min-h-[800px] flex items-center justify-center text-center pt-20 text-white overflow-hidden">
+    <section className="relative h-[90vh] min-h-[800px] flex items-center justify-center text-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -48,7 +48,7 @@ export default function Hero() {
           backgroundSize: 'cover'
         }}
       />
-      <div className="absolute inset-0 bg-background/80" />
+      <div className="absolute inset-0 bg-background/60" />
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
@@ -56,8 +56,8 @@ export default function Hero() {
             <Image
               src={logoImage.imageUrl}
               alt={logoImage.description}
-              width={400}
-              height={400}
+              width={700}
+              height={700}
               className="object-contain"
               priority
               data-ai-hint={logoImage.imageHint}
