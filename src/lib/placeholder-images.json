@@ -2,14 +2,14 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Construction workers collaborating on a building frame.",
-      "imageUrl": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "construction workers"
+      "description": "Architectural plans and tools on a desk.",
+      "imageUrl": "https://images.unsplash.com/photo-1519791883288-dc8bd696e667?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "architectural plans"
     },
     {
       "id": "hero-logo",
       "description": "Placeholder logo for the hero section",
-      "imageUrl": "https://i.imgur.com/6Y7gfdU.png",
+      "imageUrl": "https://i.imgur.com/nugn197.jpeg",
       "imageHint": "company logo"
     },
     {
