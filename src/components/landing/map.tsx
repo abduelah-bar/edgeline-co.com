@@ -32,7 +32,7 @@ export default function Map() {
   };
 
   return (
-    <Section id="about" className="bg-card">
+    <Section id="locations" className="bg-card">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <AnimatedWrapper>
           <div className="relative aspect-square md:aspect-[4/3] w-full">

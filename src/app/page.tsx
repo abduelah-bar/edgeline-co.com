@@ -1,3 +1,4 @@
+import About from "@/components/landing/about";
 import Blog from "@/components/landing/blog";
 import Faq from "@/components/landing/faq";
 import Footer from "@/components/landing/footer";
@@ -14,6 +15,7 @@ export default function Home() {
       <Header />
       <main className="flex-grow">
         <Hero />
+        <About />
         <Services />
         <Projects />
         <Team />

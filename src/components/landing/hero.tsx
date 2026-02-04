@@ -5,13 +5,32 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 import { AnimatedWrapper } from './animated-wrapper';
 import AnimatedNumber from './animated-number';
+import Logo from './logo';
+import * as React from 'react';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
 
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    const targetId = href.substring(1);
+    const targetElement = document.getElementById(targetId);
+    
+    if (targetElement) {
+        const headerOffset = 80; 
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: "smooth"
+        });
+    }
+  };
+
   return (
-    <section className="relative h-screen min-h-[800px] flex items-start pt-32 text-white overflow-hidden">
+    <section className="relative h-screen min-h-[800px] flex items-center justify-center text-center pt-20 text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -31,40 +50,36 @@ export default function Hero() {
       />
       <div className="absolute inset-0 bg-background/80" />
 
-      <div className="relative z-10 container grid md:grid-cols-2 gap-8 items-center">
+      <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-          <div className="max-w-xl">
-            <p className="text-sm font-semibold tracking-widest text-foreground/70 uppercase">Test-Hero-Subtitle</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mt-4 !leading-tight">
-              Test H1 Main text
-            </h1>
-            <p className="mt-6 text-lg text-muted-foreground">
-              Test-Hero-Description
-            </p>
-            <Button size="lg" className="mt-8 rounded-none">
-              Test-Button
-            </Button>
-          </div>
+          <Logo className="h-24 w-24 text-primary" />
         </AnimatedWrapper>
-        <div className="relative flex flex-col items-start md:items-end justify-end h-full pt-20">
-          <div className="text-left md:text-right space-y-8">
-            <AnimatedWrapper delay={0.2}>
-              <div>
+
+        <AnimatedWrapper delay={0.2}>
+           <a href="#about" onClick={(e) => handleNavClick(e, '#about')}>
+            <Button size="lg" className="mt-8 rounded-none">
+              About Us
+            </Button>
+          </a>
+        </AnimatedWrapper>
+        
+        <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-md">
+            <AnimatedWrapper delay={0.4}>
+              <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary">
                   <AnimatedNumber to={128} />+
                 </p>
                 <p className="text-muted-foreground mt-1">Test-Stat-1</p>
               </div>
             </AnimatedWrapper>
-            <AnimatedWrapper delay={0.4}>
-              <div>
+            <AnimatedWrapper delay={0.6}>
+              <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary">
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('de-DE')} />
                 </p>
                 <p className="text-muted-foreground mt-1">Test-Stat-2</p>
               </div>
             </AnimatedWrapper>
-          </div>
         </div>
       </div>
       
