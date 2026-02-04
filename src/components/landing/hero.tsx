@@ -5,7 +5,6 @@ import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { ArrowRight } from 'lucide-react';
 import { AnimatedWrapper } from './animated-wrapper';
 import AnimatedNumber from './animated-number';
-import Logo from './logo';
 import * as React from 'react';
 
 export default function Hero() {
@@ -52,7 +51,9 @@ export default function Hero() {
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-          <Logo className="h-24 w-24 text-primary" />
+          <h1 className="text-6xl md:text-8xl font-extrabold text-primary">
+            Placeholder Logo
+          </h1>
         </AnimatedWrapper>
 
         <AnimatedWrapper delay={0.2}>
