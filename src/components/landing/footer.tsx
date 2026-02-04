@@ -18,7 +18,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
               <Logo className="h-8 w-8 text-primary" />
-              <span className="font-bold text-lg">Test Footer App</span>
+              <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <p className="text-muted-foreground">
               Test-Footer-Tagline
@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} Test App. All rights reserved.
+            &copy; {new Date().getFullYear()} ELC COMPANY. All rights reserved.
           </p>
           <div className="flex gap-4">
             {socialLinks.map((link) => (

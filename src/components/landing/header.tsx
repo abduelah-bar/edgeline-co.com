@@ -58,7 +58,7 @@ export default function Header() {
         <Link href="/" className="mr-6 flex items-center gap-3">
           <Logo className="h-7 w-7 text-accent" />
           <span className="font-bold sm:inline-block text-xl">
-            Test App
+            ELC COMPANY
           </span>
         </Link>
         <nav className="hidden md:flex items-center space-x-8 text-sm font-medium ml-auto">
