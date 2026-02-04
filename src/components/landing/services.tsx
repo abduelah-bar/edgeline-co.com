@@ -29,7 +29,7 @@ const services = [
 
 export default function Services() {
   return (
-    <Section id="services" className="bg-background">
+    <Section id="services" className="bg-card pt-12">
       <AnimatedWrapper>
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Test-Services-Title</h2>
@@ -41,7 +41,7 @@ export default function Services() {
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
         {services.map((service, index) => (
           <AnimatedWrapper key={index} delay={index * 0.1}>
-            <Card className="flex flex-col items-center text-center p-6 bg-card border-none hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 h-full">
+            <Card className="flex flex-col items-center text-center p-6 bg-background border-none hover:shadow-lg transition-all duration-300 transform hover:-translate-y-2 h-full">
               <CardHeader className="items-center p-0">
                 {service.icon}
                 <CardTitle className="mt-4 text-xl text-foreground">{service.title}</CardTitle>

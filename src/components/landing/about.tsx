@@ -8,7 +8,7 @@ export default function About() {
   const aboutImage = PlaceHolderImages.find(img => img.id === 'about-us-story');
 
   return (
-    <Section id="about" className="bg-background pb-12">
+    <Section id="about" className="bg-background pb-0">
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <AnimatedWrapper>
           <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden">
