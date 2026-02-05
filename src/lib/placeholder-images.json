@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Modern building exterior",
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkcYEGuDBp6ekMoYrDLgRB4VxOmHpa2S_pmg&s",
-      "imageHint": "modern building"
+      "description": "Bright modern building interior",
+      "imageUrl": "https://images.unsplash.com/photo-1517999349371-c43520457b26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "modern interior"
     },
     {
       "id": "hero-logo",
