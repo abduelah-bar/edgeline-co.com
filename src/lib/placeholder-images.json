@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Modern building against a bright sky",
-      "imageUrl": "https://images.unsplash.com/photo-1517999144091-3d9d7afb5a26?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "modern architecture"
+      "description": "Modern bright office interior",
+      "imageUrl": "https://images.unsplash.com/photo-1497366811353-6870744d04b2?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "modern interior"
     },
     {
       "id": "hero-logo",
@@ -27,13 +27,13 @@
     {
       "id": "project-2",
       "description": "Abdul-SectionAlpha-Card3",
-      "imageUrl": "https://images.unsplash.com/photo-1582489851557-810dd5ce437a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kdXN0cmlhbCUyMGludGVyaW9yfGVufDB8fHx8MTc2OTM2OTkxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1582489851557-810dd5ce437a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kdXN0cmlhbCUyMGludGVyaW9yfGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "industrial interior"
     },
     {
       "id": "project-3",
       "description": "Abdul-SectionAlpha-Card4",
-      "imageUrl": "https://images.unsplash.com/photo-1685211048787-ddb50914c18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxza3lzY3JhcGVyJTIwc2t5fGVufDB8fHx8MTc2OTM2OTkxOHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1685211048787-ddb50914c18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxza3lzY3JhcGVyJTIwc2t5fGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "skyscraper sky"
     },
     {
@@ -75,7 +75,7 @@
     {
       "id": "blog-2",
       "description": "Abdul-Blog-Card2",
-      "imageUrl": "https://images.unsplash.com/photo-1716637644831-e046c73be197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8MTc2OTMxNjk2NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1716637644831-e046c73be197?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlfGVufDB8fHx8fDE3NjkzMTY5NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "artificial intelligence"
     },
     {
