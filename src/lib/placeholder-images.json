@@ -2,9 +2,9 @@
   "placeholderImages": [
     {
       "id": "hero-background",
-      "description": "Bright, minimalist interior",
-      "imageUrl": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?q=80&w=2148&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "minimalist interior"
+      "description": "Architectural blueprints",
+      "imageUrl": "https://images.unsplash.com/photo-1642100142981-64e7232230a1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "imageHint": "architectural blueprints"
     },
     {
       "id": "hero-logo",
