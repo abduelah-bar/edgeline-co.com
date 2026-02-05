@@ -48,7 +48,7 @@ export default function Hero() {
           backgroundSize: 'cover'
         }}
       />
-      <div className="absolute inset-0 bg-background/60" />
+      <div className="absolute inset-0 bg-black/10" />
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
