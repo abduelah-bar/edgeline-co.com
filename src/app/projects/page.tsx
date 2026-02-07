@@ -20,9 +20,9 @@ export default function ProjectsPage() {
             <div className="flex justify-between items-center">
                 <AnimatedWrapper>
                     <div className="text-left">
-                        <h1 className="text-4xl md:text-5xl font-bold">مشاريعنا</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold">Our Projects</h1>
                         <p className="mt-4 text-xl text-muted-foreground">
-                            مجموعة من أفضل أعمالنا في البناء والتصميم.
+                            A collection of our best work in construction and design.
                         </p>
                     </div>
                 </AnimatedWrapper>
@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                     <Link href="/">
                         <Button variant="outline">
                             <ArrowLeft className="h-4 w-4 mr-2" />
-                            العودة للرئيسية
+                            Back to Home
                         </Button>
                     </Link>
                 </AnimatedWrapper>

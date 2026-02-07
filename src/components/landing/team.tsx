@@ -8,10 +8,10 @@ import Link from 'next/link';
 import { AnimatedWrapper } from './animated-wrapper';
 
 const teamMembersData = [
-  { id: 'team-member-1', name: 'Test-Team-Member-1', title: 'Test-Team-Role-1' },
-  { id: 'team-member-2', name: 'Test-Team-Member-2', title: 'Test-Team-Role-2' },
-  { id: 'team-member-3', name: 'Test-Team-Member-3', title: 'Test-Team-Role-3' },
-  { id: 'team-member-4', name: 'Test-Team-Member-4', title: 'Test-Team-Role-4' },
+  { id: 'team-member-1', name: 'Jane Doe', title: 'CEO & Founder' },
+  { id: 'team-member-2', name: 'John Smith', title: 'Lead Architect' },
+  { id: 'team-member-3', name: 'Emily Jones', title: 'Project Manager' },
+  { id: 'team-member-4', name: 'Michael Brown', title: 'Lead Engineer' },
 ];
 
 const teamMembers = teamMembersData.map(member => ({
@@ -24,9 +24,9 @@ export default function Team() {
     <Section id="team" className="bg-background">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Test-Team-Title</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Our Expert Team</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Test-Team-Subtitle
+            Meet the professionals who make our projects a success.
           </p>
         </div>
       </AnimatedWrapper>

@@ -10,18 +10,18 @@ import { AnimatedWrapper } from './animated-wrapper';
 const blogPostsData = [
   { 
     id: 'blog-1', 
-    title: 'Test-Blog-Post-1-Title', 
-    description: 'Test-Blog-Post-1-Desc' 
+    title: 'The Future of Sustainable Architecture', 
+    description: 'Exploring how green building practices are shaping the future of construction and urban development.' 
   },
   { 
     id: 'blog-2', 
-    title: 'Test-Blog-Post-2-Title', 
-    description: 'Test-Blog-Post-2-Desc' 
+    title: 'AI in Construction: A Revolution in the Making', 
+    description: 'How artificial intelligence is transforming project management, design, and safety on construction sites.' 
   },
   { 
     id: 'blog-3', 
-    title: 'Test-Blog-Post-3-Title', 
-    description: 'Test-Blog-Post-3-Desc'
+    title: '5 Key Elements of Modern Interior Design', 
+    description: 'A look at the essential components that define contemporary interior spaces, from minimalism to material choices.'
   },
 ];
 
@@ -35,9 +35,9 @@ export default function Blog() {
     <Section id="blog">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Test-Blog-Title</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">From Our Blog</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Test-Blog-Subtitle
+            Stay updated with the latest trends and insights in the construction and design industry.
           </p>
         </div>
       </AnimatedWrapper>
@@ -64,7 +64,7 @@ export default function Blog() {
               </CardDescription>
               <div className="p-6 mt-4">
                 <Link href="#" className="font-semibold text-primary inline-flex items-center gap-2">
-                  Test-Read-More <ArrowRight className="h-4 w-4" />
+                  Read More <ArrowRight className="h-4 w-4" />
                 </Link>
               </div>
             </Card>

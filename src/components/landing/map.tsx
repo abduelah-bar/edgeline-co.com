@@ -10,12 +10,12 @@ import { Button } from '../ui/button';
 const mapImage = PlaceHolderImages.find(img => img.id === 'map-background');
 
 const locations = [
-  { top: '40%', left: '18%', details: 'Test-Location-Details' },
-  { top: '60%', left: '28%', details: 'Test-Location-Details' },
-  { top: '35%', left: '50%', details: 'Test-Location-Details' },
-  { top: '45%', left: '70%', details: 'Test-Location-Details' },
-  { top: '75%', left: '55%', details: 'Test-Location-Details' },
-  { top: '80%', left: '80%', details: 'Test-Location-Details' },
+  { top: '40%', left: '18%', details: 'North America Office' },
+  { top: '60%', left: '28%', details: 'South America Office' },
+  { top: '35%', left: '50%', details: 'Europe Office' },
+  { top: '45%', left: '70%', details: 'Asia Office' },
+  { top: '75%', left: '55%', details: 'Africa Office' },
+  { top: '80%', left: '80%', details: 'Australia Office' },
 ];
 
 type Location = typeof locations[number];
@@ -74,11 +74,11 @@ export default function Map() {
               <div>
                    <div className="flex items-center gap-2">
                      <div className="w-8 h-0.5 bg-primary" />
-                     <p className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">Test-Map-Label</p>
+                     <p className="text-sm font-semibold tracking-widest text-muted-foreground uppercase">OUR REACH</p>
                    </div>
-                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-foreground">Test <span className="text-accent">Map</span> Title</h2>
+                   <h2 className="text-3xl md:text-4xl font-bold mt-2 text-foreground">Global <span className="text-accent">Presence</span></h2>
                    <p className="mt-4 text-base text-muted-foreground">
-                      Test-Map-Description
+                      We have a presence in multiple locations to serve our clients better across the globe.
                    </p>
               </div>
               <div className="grid grid-cols-2 gap-8">
@@ -86,17 +86,17 @@ export default function Map() {
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={200} />+
                       </p>
-                      <p className="text-muted-foreground mt-1 font-medium">Test-Map-Stat-1</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Locations Worldwide</p>
                   </div>
                   <div className="text-left">
                       <p className="text-5xl lg:text-6xl font-bold text-accent">
                         <AnimatedNumber to={99} />%
                       </p>
-                      <p className="text-muted-foreground mt-1 font-medium">Test-Map-Stat-2</p>
+                      <p className="text-muted-foreground mt-1 font-medium">Client Satisfaction</p>
                   </div>
               </div>
               <Button size="lg" className="mt-4 rounded-none self-start">
-                Test-Button-About
+                Learn More About Us
               </Button>
           </div>
         </AnimatedWrapper>

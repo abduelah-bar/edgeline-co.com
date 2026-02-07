@@ -4,13 +4,13 @@ import Link from 'next/link';
 import { Menu, X, Building } from 'lucide-react';
 
 const navLinks = [
-  { href: '#about', label: 'Test-About' },
-  { href: '#services', label: 'Test-Services' },
-  { href: '#projects', label: 'Test-Projects' },
-  { href: '#team', label: 'Test-Team' },
-  { href: '#faq', label: 'Test-FAQ' },
-  { href: '#blog', label: 'Test-Blog' },
-  { href: '#contacts', label: 'Test-Contacts' },
+  { href: '#about', label: 'About Us' },
+  { href: '#services', label: 'Services' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#team', label: 'Our Team' },
+  { href: '#faq', label: 'FAQ' },
+  { href: '#blog', label: 'Blog' },
+  { href: '#contacts', label: 'Contact Us' },
 ];
 
 export default function Header() {

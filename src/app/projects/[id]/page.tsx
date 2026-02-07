@@ -31,7 +31,7 @@ export default function ProjectDetailsPage({ params }: ProjectDetailsPageProps) 
                 <Link href="/projects">
                     <Button variant="outline">
                         <ArrowLeft className="h-4 w-4 mr-2" />
-                        العودة للمشاريع
+                        Back to Projects
                     </Button>
                 </Link>
             </AnimatedWrapper>
@@ -55,9 +55,9 @@ export default function ProjectDetailsPage({ params }: ProjectDetailsPageProps) 
 
                 <AnimatedWrapper delay={0.4}>
                     <div className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-lg">
-                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.</p>
-                        <p>إذا كنت تحتاج إلى عدد أكبر من الفقرات يتيح لك مولد النص العربى زيادة عدد الفقرات كما تريد، النص لن يبدو مقسما ولا يحوي أخطاء لغوية، مولد النص العربى مفيد لمصممي المواقع على وجه الخصوص، حيث يحتاج العميل فى كثير من الأحيان أن يطلع على صورة حقيقية لتصميم الموقع.</p>
-                        <p>ومن هنا وجب على المصمم أن يضع نصوصا مؤقتة على التصميم ليظهر للعميل الشكل كاملاً، دور مولد النص العربى أن يوفر على المصمم عناء البحث عن نص بديل لا علاقة له بالموضوع الذى يتحدث عنه التصميم فيظهر بشكل لا يليق.</p>
+                        <p>This is a sample description for the project. This text can be replaced with the actual project details. We focus on delivering high-quality results that exceed client expectations.</p>
+                        <p>Our team of experts worked diligently to ensure every detail was perfect. The project was completed on time and within budget, showcasing our commitment to excellence and efficiency.</p>
+                        <p>From initial concept to final execution, we managed every stage of the process. This holistic approach allows us to deliver turnkey solutions that are both innovative and sustainable, providing lasting value to our clients.</p>
                     </div>
                 </AnimatedWrapper>
             </article>

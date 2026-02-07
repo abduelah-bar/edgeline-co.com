@@ -20,27 +20,27 @@ export default function Footer() {
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <p className="text-muted-foreground">
-              Test-Footer-Tagline
+              Delivering excellence in construction, design, and execution.
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
             <div>
-              <h3 className="font-semibold">Test-Footer-Links-Title</h3>
+              <h3 className="font-semibold">Quick Links</h3>
               <ul className="mt-4 space-y-2">
-                <li><Link href="#services" className="text-muted-foreground hover:text-primary">Test-Link-1</Link></li>
-                <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Test-Link-2</Link></li>
-                <li><Link href="#team" className="text-muted-foreground hover:text-primary">Test-Link-3</Link></li>
+                <li><Link href="#services" className="text-muted-foreground hover:text-primary">Services</Link></li>
+                <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Projects</Link></li>
+                <li><Link href="#team" className="text-muted-foreground hover:text-primary">Team</Link></li>
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold">Test-Footer-Legal-Title</h3>
+              <h3 className="font-semibold">Legal</h3>
               <ul className="mt-4 space-y-2">
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Test-Legal-1</Link></li>
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Test-Legal-2</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary">Terms of Service</Link></li>
               </ul>
             </div>
              <div>
-              <h3 className="font-semibold">Test-Footer-Contact-Title</h3>
+              <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
                 <li>test@example.com</li>
                 <li>+1 (555) 555-5555</li>

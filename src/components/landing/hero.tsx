@@ -6,6 +6,7 @@ import { ArrowRight } from 'lucide-react';
 import { AnimatedWrapper } from './animated-wrapper';
 import AnimatedNumber from './animated-number';
 import * as React from 'react';
+import Link from 'next/link';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
@@ -79,15 +80,15 @@ export default function Hero() {
                 <p className="text-5xl lg:text-6xl font-bold text-primary">
                   <AnimatedNumber to={128} />+
                 </p>
-                <p className="text-muted-foreground mt-1">Test-Stat-1</p>
+                <p className="text-muted-foreground mt-1">Projects Completed</p>
               </div>
             </AnimatedWrapper>
             <AnimatedWrapper delay={0.6}>
               <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary">
-                  <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('de-DE')} />
+                  <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
                 </p>
-                <p className="text-muted-foreground mt-1">Test-Stat-2</p>
+                <p className="text-muted-foreground mt-1">Happy Clients</p>
               </div>
             </AnimatedWrapper>
         </div>
@@ -98,12 +99,12 @@ export default function Hero() {
           <div className="bg-card/80 backdrop-blur-sm p-6 max-w-xs shadow-lg border border-border/20">
               <div className="flex gap-4">
                   <div>
-                      <h3 className="font-bold text-lg">Abdul-SectionAlpha-Card1</h3>
+                      <h3 className="font-bold text-lg">Residential Complex</h3>
                       <p className="text-primary font-bold text-2xl mt-2">78 000 M²</p>
-                      <p className="text-muted-foreground text-sm">Test-Card-Description</p>
-                      <a href="#" className="flex items-center gap-2 text-sm font-semibold text-primary mt-4">
-                          Test-Details <ArrowRight className="w-4 h-4" />
-                      </a>
+                      <p className="text-muted-foreground text-sm">Completed residential project.</p>
+                      <Link href="#" className="flex items-center gap-2 text-sm font-semibold text-primary mt-4">
+                          View Details <ArrowRight className="w-4 h-4" />
+                      </Link>
                   </div>
                   <Image 
                       src={cardImage.imageUrl}
