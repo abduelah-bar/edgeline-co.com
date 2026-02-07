@@ -39,6 +39,26 @@
         {
           "imageUrl": "https://images.unsplash.com/photo-1494522855154-9297acba4856?q=80&w=1080",
           "imageHint": "bridge fog"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1506196611993-8f68340d4a89?q=80&w=1080",
+          "imageHint": "bridge architecture"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1080",
+          "imageHint": "brooklyn bridge"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1486314021503-cf6204c35b53?q=80&w=1080",
+          "imageHint": "bridge water"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1505562260848-8e65839b334a?q=80&w=1080",
+          "imageHint": "rope bridge"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1478145787956-f6f12c587125?q=80&w=1080",
+          "imageHint": "bridge forest"
         }
       ]
     },
@@ -63,6 +83,26 @@
         {
           "imageUrl": "https://images.unsplash.com/photo-1616047006789-b7af54a4ba36?q=80&w=1080",
           "imageHint": "modern factory"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1516937998395-699a66ea8616?q=80&w=1080",
+          "imageHint": "warehouse shelves"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1587019943573-03f374780074?q=80&w=1080",
+          "imageHint": "dark warehouse"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1615925345710-5e58a74e5309?q=80&w=1080",
+          "imageHint": "industrial machinery"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1581092918056-0c9c4e533569?q=80&w=1080",
+          "imageHint": "factory worker"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1505798577917-a1e825fc7f3a?q=80&w=1080",
+          "imageHint": "metalworking"
         }
       ]
     },
