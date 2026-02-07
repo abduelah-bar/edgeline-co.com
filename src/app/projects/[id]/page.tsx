@@ -20,7 +20,8 @@ type ProjectDetailsPageProps = {
 }
 
 export default function ProjectDetailsPage({ params }: ProjectDetailsPageProps) {
-  const project = PlaceHolderImages.find(img => img.id === params.id);
+  const { id } = params;
+  const project = PlaceHolderImages.find(img => img.id === id);
   const [selectedImage, setSelectedImage] = useState(project?.imageUrl);
 
   if (!project) {
