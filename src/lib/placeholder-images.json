@@ -22,37 +22,145 @@
       "id": "project-1",
       "description": "Suspension Bridge Construction",
       "imageUrl": "https://images.unsplash.com/photo-1745416228619-1f353f22a0c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxicmlkZ2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY5MzM3NjI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bridge architecture"
+      "imageHint": "bridge architecture",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1526689339247-8134e7c75b8a?q=80&w=1080",
+          "imageHint": "bridge sunset"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1558034958-80a561f97334?q=80&w=1080",
+          "imageHint": "bridge night"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1429041966141-44d228a42775?q=80&w=1080",
+          "imageHint": "golden gate"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1494522855154-9297acba4856?q=80&w=1080",
+          "imageHint": "bridge fog"
+        }
+      ]
     },
     {
       "id": "project-2",
       "description": "Industrial Warehouse Interior",
       "imageUrl": "https://images.unsplash.com/photo-1582489851557-810dd5ce437a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kdXN0cmlhbCUyMGludGVyaW9yfGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "industrial interior"
+      "imageHint": "industrial interior",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1571505527186-f642f49a8ea4?q=80&w=1080",
+          "imageHint": "warehouse empty"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1621262446908-3235b82875b7?q=80&w=1080",
+          "imageHint": "industrial pipes"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1567954930999-4a94615a1334?q=80&w=1080",
+          "imageHint": "factory interior"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1616047006789-b7af54a4ba36?q=80&w=1080",
+          "imageHint": "modern factory"
+        }
+      ]
     },
     {
       "id": "project-3",
       "description": "Skyscraper Development",
       "imageUrl": "https://images.unsplash.com/photo-1685211048787-ddb50914c18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxza3lzY3JhcGVyJTIwc2t5fGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skyscraper sky"
+      "imageHint": "skyscraper sky",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1582255726488-c5a17625a07c?q=80&w=1080",
+          "imageHint": "city buildings"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1523978523634-963559a43588?q=80&w=1080",
+          "imageHint": "looking up skyscraper"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1617833419086-e4146a4e3933?q=80&w=1080",
+          "imageHint": "modern skyscraper"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1605648437148-c71539a29a3a?q=80&w=1080",
+          "imageHint": "dubai skyline"
+        }
+      ]
     },
     {
       "id": "project-4",
       "description": "Night-time Refinery",
       "imageUrl": "https://images.unsplash.com/photo-1763895524025-2dbf7ea9659d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVmaW5lcnklMjBuaWdodHxlbnwwfHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "refinery night"
+      "imageHint": "refinery night",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1617073385158-e4b17f50a80e?q=80&w=1080",
+          "imageHint": "oil refinery"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1629828131343-6c8cf85a697c?q=80&w=1080",
+          "imageHint": "industrial plant"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1633519898380-53a539c3365a?q=80&w=1080",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1573063590554-15d74d3d82f7?q=80&w=1080",
+          "imageHint": "factory night"
+        }
+      ]
     },
     {
       "id": "project-5",
       "description": "Modern Office Interior Design",
       "imageUrl": "https://images.unsplash.com/photo-1554941829-202a0b2403b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "modern office"
+      "imageHint": "modern office",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1080",
+          "imageHint": "collaborative workspace"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1080",
+          "imageHint": "team meeting"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?q=80&w=1080",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1588196749107-15d85b1dae28?q=80&w=1080",
+          "imageHint": "creative office"
+        }
+      ]
     },
     {
       "id": "project-6",
       "description": "Urban Residential Building",
       "imageUrl": "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "imageHint": "apartment building"
+      "imageHint": "apartment building",
+      "gallery": [
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1080",
+          "imageHint": "city apartments"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1594488542355-9c9a0a54a021?q=80&w=1080",
+          "imageHint": "modern apartments"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1080",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1080",
+          "imageHint": "suburban home"
+        }
+      ]
     },
     {
       "id": "team-member-1",
