@@ -1,5 +1,4 @@
 import About from "@/components/landing/about";
-import Blog from "@/components/landing/blog";
 import Faq from "@/components/landing/faq";
 import Footer from "@/components/landing/footer";
 import Header from "@/components/landing/header";
@@ -21,7 +20,6 @@ export default function Home() {
         <Team />
         <Map />
         <Faq />
-        <Blog />
       </main>
       <Footer />
     </div>
