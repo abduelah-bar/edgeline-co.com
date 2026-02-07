@@ -4,6 +4,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import { Section } from './section';
 import { AnimatedWrapper } from './animated-wrapper';
+import { Button } from '../ui/button';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
 
 const projectIds = ['project-1', 'project-2', 'project-3', 'project-4'];
 const projects = PlaceHolderImages.filter(img => projectIds.includes(img.id));
@@ -41,6 +44,14 @@ export default function Projects() {
             </Card>
           </AnimatedWrapper>
         ))}
+      </div>
+      <div className="mt-12 text-center">
+        <Link href="/projects">
+            <Button size="lg">
+                شاهد المزيد
+                <ArrowRight className="h-5 w-5 ml-2" />
+            </Button>
+        </Link>
       </div>
     </Section>
   );
