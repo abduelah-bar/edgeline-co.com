@@ -2,7 +2,7 @@
 
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
-import { notFound } from 'next/navigation';
+import { notFound, useParams } from 'next/navigation';
 import Header from '@/components/landing/header';
 import Footer from '@/components/landing/footer';
 import { Section } from '@/components/landing/section';
@@ -13,14 +13,9 @@ import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
 
-type ProjectDetailsPageProps = {
-    params: {
-        id: string;
-    }
-}
-
-export default function ProjectDetailsPage({ params }: ProjectDetailsPageProps) {
-  const { id } = params;
+export default function ProjectDetailsPage() {
+  const params = useParams();
+  const id = params.id as string;
   const project = PlaceHolderImages.find(img => img.id === id);
   const [selectedImage, setSelectedImage] = useState(project?.imageUrl);
 
