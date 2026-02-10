@@ -12,7 +12,7 @@ import { ArrowLeft, Maximize } from 'lucide-react';
 import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
-import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
 
 export default function ProjectDetailsPage() {
   const params = useParams();
@@ -66,6 +66,7 @@ export default function ProjectDetailsPage() {
                             </div>
                         </DialogTrigger>
                         <DialogContent className="max-w-7xl w-full p-2 bg-transparent border-none shadow-none">
+                             <DialogTitle className="sr-only">{project.description}</DialogTitle>
                              <div className="relative aspect-video">
                                 <Image
                                     src={selectedImage || project.imageUrl}
