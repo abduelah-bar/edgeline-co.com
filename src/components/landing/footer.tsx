@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <p className="text-muted-foreground">
-              Delivering excellence in construction, design, and execution.
+df
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">

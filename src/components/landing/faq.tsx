@@ -10,20 +10,20 @@ import { AnimatedWrapper } from './animated-wrapper';
 
 const faqs = [
   {
-    question: 'What types of projects do you handle?',
-    answer: 'We handle a wide range of projects including commercial, residential, and industrial construction, as well as interior design, fit-outs, and project management.',
+    question: 't',
+    answer: 't',
   },
   {
-    question: 'What is your company’s approach to project management?',
-    answer: 'We take a holistic approach, managing all aspects of a project from the initial concept to the final handover. We are committed to "Turnkey" solutions to ensure high quality and client satisfaction.',
+    question: 'tsdfsdfsdf',
+    answer: 't',
   },
   {
-    question: 'Do you offer customized solutions?',
-    answer: 'Yes, all our projects are highly customized to meet the unique needs and requirements of our clients. We pride ourselves on creating imitation-free designs and deliverables.',
+    question: 'Dt',
+    answer: 't',
   },
   {
-    question: 'What standards do you follow?',
-    answer: 'We are dedicated to providing our clients with the finest quality deliverables, executed to impeccable international standards to ensure excellence and durability.',
+    question: 't',
+    answer: 'Wt',
   },
 ];
 
@@ -35,7 +35,7 @@ export default function Faq() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">Frequently Asked Questions</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Can't find the answer you're looking for? Reach out to our customer support team.
+          head-line-2
             </p>
           </div>
         </AnimatedWrapper>

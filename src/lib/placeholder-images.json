@@ -20,184 +20,454 @@
     },
     {
       "id": "project-1",
-      "description": "Suspension Bridge Construction",
-      "imageUrl": "https://images.unsplash.com/photo-1745416228619-1f353f22a0c4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxicmlkZ2UlMjBhcmNoaXRlY3R1cmV8ZW58MHx8fHwxNzY5MzM3NjI5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Tasahil Exhibition",
+      "longDescription": "Tasaheel Finance Showroom: Integration of Identity and Technology Elc Contracting delivered a comprehensive turnkey solution for the Tasaheel showroom, featuring: Facade & Signage: A modern glass facade with Alucobond cladding and a wide-span signboard with internal lighting to highlight the brand. Custom Counters: Design and fabrication of bespoke, streamlined customer service counters in black and white, enhanced with blue LED accents. Decor & Finishing: Premium marble flooring and innovative gypsum ceilings that blend aesthetic appeal with functional design. Mechanical Systems: Advanced electrical networking and a concealed central AC system to ensure visitor comfort and a quiet environment. Furnishing: A modern waiting area equipped with contemporary leather furniture reflecting the showroom’s corporate identity.",
+      "imageUrl": "https://i.imgur.com/T4RSt1C.jpeg",
       "imageHint": "bridge architecture",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1526689339247-8134e7c75b8a?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/M4fKitb.jpeg",
           "imageHint": "bridge sunset"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1558034958-80a561f97334?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/wR7LgKZ.jpeg",
           "imageHint": "bridge night"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1429041966141-44d228a42775?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/CYa3qJc.jpeg",
           "imageHint": "golden gate"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1494522855154-9297acba4856?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/5tVSAU0.jpeg",
           "imageHint": "bridge fog"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1506196611993-8f68340d4a89?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/hMRz2DF.jpeg",
           "imageHint": "bridge architecture"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/Y5gozCW.jpeg",
           "imageHint": "brooklyn bridge"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1486314021503-cf6204c35b53?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/3NzeDvF.jpeg",
           "imageHint": "bridge water"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1505562260848-8e65839b334a?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/LzjOQ0n.jpeg",
           "imageHint": "rope bridge"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1478145787956-f6f12c587125?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/8SYm9SS.jpeg",
           "imageHint": "bridge forest"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/JK3oEVh.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/l0AxO2X.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/bekE45U.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/zJno75q.jpeg",
+          "imageHint": ""
         }
       ]
     },
     {
       "id": "project-2",
-      "description": "Industrial Warehouse Interior",
-      "imageUrl": "https://images.unsplash.com/photo-1582489851557-810dd5ce437a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aW5kdXN0cmlhbCUyMGludGVyaW9yfGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "industrial interior",
+      "description": "Tasahil Office",
+      "longDescription": "ELC Contracting successfully delivered a comprehensive Turnkey Solution for the Tasaheel Trading Company headquarters, managing the project from conceptual design to final handover. Key Deliverables: Full Turnkey Execution: Handled everything from initial structural finishes to final furniture installation. Interior Design: Implementation of modern workstations, glass partitions, and premium marble/wood cladding for the reception area. Technical Fit-out: Complete installation of networking, power systems, and IP telephony, ensuring the office was plug-and-play ready. Site Management: Professional handling of logistics, site protection, and final finishing to ensure immediate operational readiness. Result: A sophisticated, high-performance workspace that perfectly aligns with the client's corporate identity.",
+      "imageUrl": "https://i.imgur.com/54ZU1Jt.jpeg",
+      "imageHint": "Tasahil Office",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1571505527186-f642f49a8ea4?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/lsFhyid.jpeg",
           "imageHint": "warehouse empty"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1621262446908-3235b82875b7?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/dPMXmpf.jpeg",
           "imageHint": "industrial pipes"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1567954930999-4a94615a1334?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/3lrCmsa.jpeg",
           "imageHint": "factory interior"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1616047006789-b7af54a4ba36?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/5bJDQoQ.jpeg",
           "imageHint": "modern factory"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1516937998395-699a66ea8616?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/EWzylMF.jpeg",
           "imageHint": "warehouse shelves"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1587019943573-03f374780074?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/hriG1IA.jpeg",
           "imageHint": "dark warehouse"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1615925345710-5e58a74e5309?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/WDGciac.jpeg",
           "imageHint": "industrial machinery"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1581092918056-0c9c4e533569?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/VJxhY5Y.jpeg",
           "imageHint": "factory worker"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1505798577917-a1e825fc7f3a?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/PldIvTt.jpeg",
           "imageHint": "metalworking"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/HTAtvdq.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/ZNXrHDC.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/qynyF9U.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/49jW9MK.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/mCj815x.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/UJcFAjx.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/2MQbetk.jpeg",
+          "imageHint": ""
+        },
+        {
+          "imageUrl": "https://i.imgur.com/zZ6W2yL.jpeg",
+          "imageHint": ""
         }
       ]
     },
     {
       "id": "project-3",
-      "description": "Skyscraper Development",
-      "imageUrl": "https://images.unsplash.com/photo-1685211048787-ddb50914c18e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxza3lzY3JhcGVyJTIwc2t5fGVufDB8fHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skyscraper sky",
+      "description": "Chairman of the Board’s Office at Tasahil Exhibition",
+      "longDescription": "Chairman’s Office – Tasahil Showroom | Design & Implementation We designed and executed this executive workspace, blending futuristic innovation with premium luxury. Bespoke Design: Custom-built futuristic desk with integrated LED lighting. Premium Finishes: High-end dark wood paneling, marble flooring, and gold accents. Smart Layout: A perfect balance between a formal workstation and a luxury executive lounge. Signature Lighting: A unique geometric ceiling design for a seamless, professional ambiance. The Result: A workspace crafted to reflect leadership and professional excellence.",
+      "imageUrl": "https://i.imgur.com/3wGfIJr.jpeg",
+      "imageHint": "",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1582255726488-c5a17625a07c?q=80&w=1080",
-          "imageHint": "city buildings"
+          "imageUrl": "https://i.imgur.com/ZGo62Sp.jpeg",
+          "imageHint": ""
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1523978523634-963559a43588?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/np7Hx7t.jpeg",
           "imageHint": "looking up skyscraper"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1617833419086-e4146a4e3933?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/j3EksmV.jpeg",
           "imageHint": "modern skyscraper"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1605648437148-c71539a29a3a?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/bUbxdcL.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/OgX5BOt.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/DRGrV1T.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/9LQeuAp.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/12WT3g0.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/FvbClQ7.jpeg",
+          "imageHint": "dubai skyline"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/g0MiC36.jpeg",
           "imageHint": "dubai skyline"
         }
       ]
     },
     {
       "id": "project-4",
-      "description": "Night-time Refinery",
-      "imageUrl": "https://images.unsplash.com/photo-1763895524025-2dbf7ea9659d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cmVmaW5lcnklMjBuaWdodHxlbnwwfHx8fDE3NjkzNjk5MTh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "Raseed Holding Office",
+      "longDescription": "ELC Contracting successfully delivered the Raseed Holding headquarters as a Turnkey Project, managing everything from initial design to the final finishing touches: Integrated Solutions: Full design and execution of offices, meeting rooms, and the outdoor lounge. Smart Fit-out: Premium finishes with complete installation of all technical and MEP systems. Outdoor Terrace: Creating a unique breakout space that blends nature with modern architecture. ELC Contracting.. From concept to completion.",
+      "imageUrl": "https://i.imgur.com/3rGqJS6.jpeg",
       "imageHint": "refinery night",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1617073385158-e4b17f50a80e?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/LdBowgB.jpeg",
           "imageHint": "oil refinery"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1629828131343-6c8cf85a697c?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/hMmtxkG.jpeg",
           "imageHint": "industrial plant"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1633519898380-53a539c3365a?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/NwsscTg.jpeg",
           "imageHint": "power plant"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1573063590554-15d74d3d82f7?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/L4WgeEw.jpeg",
           "imageHint": "factory night"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Rp1OJZU.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/5ZwYhvL.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/54KG12k.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/QDn06fX.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/IFN8EQt.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/eY4FMgS.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/b7WsSzd.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/o35s4uo.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/fxyhGvI.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Q72q5Eb.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/HtoDbVK.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Vxkmsr3.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/ItQGHEf.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/DPzfCEL.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/IPcupJb.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/2YLFHDy.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/nb8OaMf.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/oBJAihA.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/7Y6uWyb.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/zImsU99.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/aXUfnsx.jpeg",
+          "imageHint": "power plant"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/ezQZ0h2.jpeg",
+          "imageHint": "power plant"
         }
       ]
     },
     {
       "id": "project-5",
-      "description": "Modern Office Interior Design",
-      "imageUrl": "https://images.unsplash.com/photo-1554941829-202a0b2403b8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Nawader Al Riyadh",
+      "longDescription": "Nadira Riyadh Telecommunications Complex | Design & Build Executed by: Elc Contracting At Elc Contracting, we delivered a turnkey solution for the Nadira Riyadh Complex, transforming the space into a modern tech hub that balances high-impact branding with retail functionality. Project Scope & Highlights: Exterior Facade & Signage: We designed and installed a contemporary Cladding facade featuring high-visibility 3D backlit LED signage to ensure a dominant street presence. Custom Retail Counters: Our team manufactured and installed organized, numbered sales booths, each integrated with signature blue LED strip lighting to reinforce the brand identity. Premium Display Units: We equipped the showroom with custom glass showcases designed for maximum product visibility, security, and organized merchandising. Interior Infrastructure: The project included a complete lighting system and high-gloss flooring, creating a bright, professional, and spacious environment for customers.",
+      "imageUrl": "https://i.imgur.com/Foegf86.jpeg",
       "imageHint": "modern office",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/YhzHtR1.jpeg",
           "imageHint": "collaborative workspace"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/IGoYOhZ.jpeg",
           "imageHint": "team meeting"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1549740425-5e9ed4d8cd34?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/y4hKqSa.jpeg",
           "imageHint": "office lounge"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1588196749107-15d85b1dae28?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/odPpGLt.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/m6fmGhB.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/jVFXeqb.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/pXIYQNg.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Oj4SNZA.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Rhj1YJe.jpeg",
+          "imageHint": "office lounge"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Dt3Qsvt.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/1yvNlEi.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/oiXFXoT.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/c0aoh57.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/oyfCChw.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/qnlW8lD.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/D8apKQJ.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Lk3VByZ.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/7L8xs6Z.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/2GzHRJ0.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/Y0DZETA.jpeg",
+          "imageHint": "creative office"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/B7G1Pdr.jpeg",
           "imageHint": "creative office"
         }
       ]
     },
     {
       "id": "project-6",
-      "description": "Urban Residential Building",
-      "imageUrl": "https://images.unsplash.com/photo-1515263487990-61b07816b324?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "description": "Alwaleed’s Private Office",
+      "longDescription": "The Luxury of Simplicity: Office Design & Execution for the Private Office Manager of HRH Prince Alwaleed Bin TalalProject Description: Elc Contracting proudly presents this interior masterpiece. We undertook the complete design and execution of the office for the Private Office Manager of HRH Prince Alwaleed Bin Talal. Our vision for this project was to craft a workspace that embodies professional sophistication while ensuring maximum comfort and tranquillity. The project features refined modern touches, including: Flooring: The use of luxurious Grey Marble with natural veins creates a sense of spaciousness and grandeur. Lighting: A thoughtful distribution of ambient lighting and spotlights, complemented by concealed lighting in the ceiling and shelving units to accentuate the design aesthetics. Furniture & Woodwork: We selected a sleek, curved white desk to soften traditional lines, paired with a lounge area that combines modern sofas and comfortable seating for hosting guests. Walls & Decor: A harmonious blend of soft, light paint and dark wood cladding behind the display screen creates an elegant and attractive visual contrast.",
+      "imageUrl": "https://i.imgur.com/pLESaH0.jpeg",
       "imageHint": "apartment building",
       "gallery": [
         {
-          "imageUrl": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/V2R0E0D.jpeg",
           "imageHint": "city apartments"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1594488542355-9c9a0a54a021?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/DtnpgHZ.jpeg",
           "imageHint": "modern apartments"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/44ozzEQ.jpeg",
           "imageHint": "luxury house"
         },
         {
-          "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1080",
+          "imageUrl": "https://i.imgur.com/O4yo9av.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/3jxqDqI.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/RwurkLi.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/nUQV5XW.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/j3G9glq.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/PPYjr1C.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/e15MuA7.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/TFxEEtc.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/iJttHoF.jpeg",
+          "imageHint": "luxury house"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/qjoCUMz.jpeg",
           "imageHint": "suburban home"
         }
       ]
@@ -205,25 +475,25 @@
     {
       "id": "team-member-1",
       "description": "Jane Doe",
-      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjkyNjAxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "",
       "imageHint": "professional woman"
     },
     {
       "id": "team-member-2",
-      "description": "John Smith",
+      "description": "test",
       "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzY5MzI1ODIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "professional man"
     },
     {
       "id": "team-member-3",
       "description": "Emily Jones",
-      "imageUrl": "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcm9mZXNzaW9uYWwlMjB3b21hbnxlbnwwfHx8fDE3NjkyNjAxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "",
       "imageHint": "professional woman"
     },
     {
       "id": "team-member-4",
-      "description": "Michael Brown",
-      "imageUrl": "https://images.unsplash.com/photo-1562788869-4ed32648eb72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcm9mZXNzaW9uYWwlMjBtYW58ZW58MHx8fHwxNzY5MzI1ODIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": " ",
+      "imageUrl": "",
       "imageHint": "professional man"
     },
     {

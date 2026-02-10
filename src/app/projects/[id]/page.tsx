@@ -8,10 +8,11 @@ import Footer from '@/components/landing/footer';
 import { Section } from '@/components/landing/section';
 import { Button } from '@/components/ui/button';
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, Maximize } from 'lucide-react';
 import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
 import { useState } from 'react';
 import { cn } from '@/lib/utils';
+import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 
 export default function ProjectDetailsPage() {
   const params = useParams();
@@ -48,16 +49,34 @@ export default function ProjectDetailsPage() {
                 </AnimatedWrapper>
 
                 <AnimatedWrapper delay={0.2}>
-                    <div className="relative aspect-video w-full max-w-5xl mx-auto mt-8 rounded-lg overflow-hidden shadow-lg">
-                        <Image
-                        src={selectedImage || project.imageUrl}
-                        alt={project.description}
-                        fill
-                        className="object-cover transition-all duration-300"
-                        data-ai-hint={project.imageHint}
-                        key={selectedImage}
-                        />
-                    </div>
+                    <Dialog>
+                        <DialogTrigger asChild>
+                            <div className="relative group aspect-video w-full max-w-5xl mx-auto mt-8 rounded-lg overflow-hidden shadow-lg cursor-pointer">
+                                <Image
+                                    src={selectedImage || project.imageUrl}
+                                    alt={project.description}
+                                    fill
+                                    className="object-cover transition-all duration-300"
+                                    data-ai-hint={project.imageHint}
+                                    key={selectedImage}
+                                />
+                                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center">
+                                    <Maximize className="w-12 h-12 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
+                                </div>
+                            </div>
+                        </DialogTrigger>
+                        <DialogContent className="max-w-7xl w-full p-2 bg-transparent border-none shadow-none">
+                             <div className="relative aspect-video">
+                                <Image
+                                    src={selectedImage || project.imageUrl}
+                                    alt={project.description}
+                                    fill
+                                    className="object-contain"
+                                    data-ai-hint={project.imageHint}
+                                />
+                            </div>
+                        </DialogContent>
+                    </Dialog>
                 </AnimatedWrapper>
 
                 {galleryImages.length > 1 && (
@@ -92,9 +111,9 @@ export default function ProjectDetailsPage() {
 
                 <AnimatedWrapper delay={0.4}>
                     <div className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-lg">
-                        <p>This is a sample description for the project. This text can be replaced with the actual project details. We focus on delivering high-quality results that exceed client expectations.</p>
-                        <p>Our team of experts worked diligently to ensure every detail was perfect. The project was completed on time and within budget, showcasing our commitment to excellence and efficiency.</p>
-                        <p>From initial concept to final execution, we managed every stage of the process. This holistic approach allows us to deliver turnkey solutions that are both innovative and sustainable, providing lasting value to our clients.</p>
+                        <p>
+                            {project.longDescription}
+                      </p>
                     </div>
                 </AnimatedWrapper>
             </article>
