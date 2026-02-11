@@ -44,15 +44,6 @@ export default function Hero() {
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-           <h1 className="text-5xl md:text-7xl font-bold text-white" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
-                ELC COMPANY
-            </h1>
-            <p className="mt-4 text-xl md:text-2xl text-white" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
-                Construction, Design & Execution
-            </p>
-        </AnimatedWrapper>
-
-        <AnimatedWrapper delay={0.2}>
            <a href="#about" onClick={(e) => handleNavClick(e, '#about')}>
             <Button size="lg" className="mt-8 rounded-none">
               About Us
@@ -61,7 +52,7 @@ export default function Hero() {
         </AnimatedWrapper>
         
         <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-md">
-            <AnimatedWrapper delay={0.4}>
+            <AnimatedWrapper delay={0.2}>
               <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={128} />+
@@ -69,7 +60,7 @@ export default function Hero() {
                 <p className="text-muted-foreground mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Projects Completed</p>
               </div>
             </AnimatedWrapper>
-            <AnimatedWrapper delay={0.6}>
+            <AnimatedWrapper delay={0.4}>
               <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
