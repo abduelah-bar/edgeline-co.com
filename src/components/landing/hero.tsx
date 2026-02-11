@@ -11,6 +11,7 @@ import Link from 'next/link';
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
+  const heroLogo = PlaceHolderImages.find(img => img.id === 'hero-logo');
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -30,7 +31,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[90vh] min-h-[800px] flex items-center justify-center text-center text-white overflow-hidden">
+    <section className="relative h-[90vh] min-h-[800px] flex items-end pb-24 justify-center text-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -43,7 +44,21 @@ export default function Hero() {
       )}
 
       <div className="relative z-10 container flex flex-col items-center">
-        <AnimatedWrapper>
+        
+        {heroLogo && (
+            <AnimatedWrapper>
+                <Image
+                    src={heroLogo.imageUrl}
+                    alt={heroLogo.description}
+                    width={250}
+                    height={250}
+                    className="object-contain"
+                    data-ai-hint={heroLogo.imageHint}
+                />
+            </AnimatedWrapper>
+        )}
+
+        <AnimatedWrapper delay={0.2}>
            <a href="#about" onClick={(e) => handleNavClick(e, '#about')}>
             <Button size="lg" className="mt-8 rounded-none">
               About Us
@@ -52,7 +67,7 @@ export default function Hero() {
         </AnimatedWrapper>
         
         <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-md">
-            <AnimatedWrapper delay={0.2}>
+            <AnimatedWrapper delay={0.4}>
               <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={128} />+
@@ -60,7 +75,7 @@ export default function Hero() {
                 <p className="text-muted-foreground mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Projects Completed</p>
               </div>
             </AnimatedWrapper>
-            <AnimatedWrapper delay={0.4}>
+            <AnimatedWrapper delay={0.6}>
               <div className="text-center">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
@@ -72,7 +87,7 @@ export default function Hero() {
       </div>
       
       {cardImage && (
-        <AnimatedWrapper className="hidden md:block absolute bottom-12 right-16 z-20" delay={0.6}>
+        <AnimatedWrapper className="hidden md:block absolute bottom-12 right-16 z-20" delay={0.8}>
           <div className="bg-card/80 backdrop-blur-sm p-6 max-w-xs shadow-lg border border-border/20">
               <div className="flex gap-4">
                   <div>
