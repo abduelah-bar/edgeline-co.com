@@ -11,7 +11,6 @@ import Link from 'next/link';
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
-  const logoImage = PlaceHolderImages.find(img => img.id === 'hero-logo');
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -42,28 +41,15 @@ export default function Hero() {
           data-ai-hint={heroImage.imageHint}
         />
       )}
-      <div 
-        className="absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: "url('https://static.vecteezy.com/system/resources/previews/001/944/833/original/blueprint-technical-drawing-background-vector.jpg')",
-          backgroundSize: 'cover'
-        }}
-      />
-      <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-          {logoImage && (
-            <Image
-              src={logoImage.imageUrl}
-              alt={logoImage.description}
-              width={700}
-              height={700}
-              className="object-contain"
-              priority
-              data-ai-hint={logoImage.imageHint}
-            />
-          )}
+           <h1 className="text-5xl md:text-7xl font-bold text-white" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}>
+                ELC COMPANY
+            </h1>
+            <p className="mt-4 text-xl md:text-2xl text-white" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}>
+                Construction, Design & Execution
+            </p>
         </AnimatedWrapper>
 
         <AnimatedWrapper delay={0.2}>
@@ -77,18 +63,18 @@ export default function Hero() {
         <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-md">
             <AnimatedWrapper delay={0.4}>
               <div className="text-center">
-                <p className="text-5xl lg:text-6xl font-bold text-primary">
+                <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={128} />+
                 </p>
-                <p className="text-muted-foreground mt-1">Projects Completed</p>
+                <p className="text-muted-foreground mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Projects Completed</p>
               </div>
             </AnimatedWrapper>
             <AnimatedWrapper delay={0.6}>
               <div className="text-center">
-                <p className="text-5xl lg:text-6xl font-bold text-primary">
+                <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
                 </p>
-                <p className="text-muted-foreground mt-1">Happy Clients</p>
+                <p className="text-muted-foreground mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Happy Clients</p>
               </div>
             </AnimatedWrapper>
         </div>
