@@ -20,8 +20,8 @@ export default function Footer() {
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <div className="text-muted-foreground">
-              <p className="font-semibold tracking-wider text-foreground">CONSTRUCTION, DESIGN & EXECUTION</p>
-              <p className="mt-2">let's build your dream</p>
+              <p className="font-semibold tracking-wider text-foreground">CONSTRUCTION,DESIGN & ESECUTION</p>
+              <p className="mt-2">Your vision, our mission. We deliver excellence from concept to completion.</p>
             </div>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
@@ -43,7 +43,7 @@ export default function Footer() {
              <div>
               <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
-                <li>Saudi arabia, Riyadh</li>
+                <li>Saudi arabia, Ryadh</li>
                 <li>test@example.com</li>
                 <li>+966 50 117 5465</li>
               </ul>
@@ -51,9 +51,14 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-muted-foreground">
-            &copy; {new Date().getFullYear()} ELC COMPANY. All rights reserved.
-          </p>
+          <div className="text-center sm:text-left">
+            <p className="text-sm text-muted-foreground">
+              &copy; {new Date().getFullYear()} ELC COMPANY. All rights reserved.
+            </p>
+            <p className="text-sm text-muted-foreground">
+              Developed by <Link href="#" className="font-semibold text-primary hover:underline">BAZ DEVELOPMENT</Link>
+            </p>
+          </div>
           <div className="flex gap-4">
             {socialLinks.map((link) => (
               <Link key={link.name} href={link.href} aria-label={link.name}>
