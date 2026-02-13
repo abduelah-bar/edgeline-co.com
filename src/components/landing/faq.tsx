@@ -10,20 +10,24 @@ import { AnimatedWrapper } from './animated-wrapper';
 
 const faqs = [
   {
-    question: 't',
-    answer: 't',
+    question: 'What types of services does ELC Company provide?',
+    answer: 'We offer a comprehensive range of services including Architectural & Interior Design, Construction & Fit-out, Turnkey Solutions, Custom Furniture & Woodworks, Project Management, Signage & Wayfinding, and Exhibition Booth fabrication. Our goal is to provide a complete, \'Turnkey\' solution from concept to handover.',
   },
   {
-    question: 'tsdfsdfsdf',
-    answer: 't',
+    question: 'What is your approach to project management?',
+    answer: 'We manage complex projects with high technical efficiency to ensure successful execution that meets the expectations of all stakeholders. Our holistic approach allows us to design, construct, oversee, and manage high-end projects effectively.',
   },
   {
-    question: 'Dt',
-    answer: 't',
+    question: 'Do you handle both commercial and residential projects?',
+    answer: 'Yes, our portfolio includes a diverse range of projects, including corporate headquarters, commercial showrooms, and luxury private residences. We tailor our services to meet the unique needs of each client.',
   },
   {
-    question: 't',
-    answer: 'Wt',
+    question: 'What sets ELC Company apart from other contractors?',
+    answer: 'We strive to be partners in success and lifestyle companions for our clients, not just traditional contractors. We are dedicated to providing unique, imitation-free, and highly customized projects executed to impeccable international standards, focusing on creative solutions and consistent excellence.',
+  },
+   {
+    question: 'Where are you located?',
+    answer: 'While our headquarters are based in Saudi Arabia, we manage and execute projects across various locations. Please contact us to discuss your project\'s specific needs.',
   },
 ];
 
@@ -35,7 +39,7 @@ export default function Faq() {
           <div>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground">Frequently Asked Questions</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-          head-line-2
+              Find answers to common questions about our services and process.
             </p>
           </div>
         </AnimatedWrapper>

@@ -20,7 +20,7 @@ export default function Footer() {
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <p className="text-muted-foreground">
-df
+              Construction, Design & Execution. Your vision, our mission. We deliver excellence from concept to completion.
             </p>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
@@ -29,21 +29,21 @@ df
               <ul className="mt-4 space-y-2">
                 <li><Link href="#services" className="text-muted-foreground hover:text-primary">Services</Link></li>
                 <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Projects</Link></li>
-                <li><Link href="#team" className="text-muted-foreground hover:text-primary">Team</Link></li>
+                <li><Link href="#testimonials" className="text-muted-foreground hover:text-primary">Testimonials</Link></li>
               </ul>
             </div>
             <div>
               <h3 className="font-semibold">Legal</h3>
               <ul className="mt-4 space-y-2">
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
-                <li><Link href="#" className="text-muted-foreground hover:text-primary">Terms of Service</Link></li>
+                <li><Link href="/privacy-policy" className="text-muted-foreground hover:text-primary">Privacy Policy</Link></li>
+                <li><Link href="/terms-of-service" className="text-muted-foreground hover:text-primary">Terms of Service</Link></li>
               </ul>
             </div>
              <div>
               <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
                 <li>test@example.com</li>
-                <li>+1 (555) 555-5555</li>
+                <li>+966 0501175465</li>
               </ul>
             </div>
           </div>
