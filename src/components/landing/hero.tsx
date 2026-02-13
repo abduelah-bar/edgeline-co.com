@@ -11,7 +11,6 @@ import Link from 'next/link';
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
   const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
-  const heroLogo = PlaceHolderImages.find(img => img.id === 'hero-logo');
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -45,19 +44,6 @@ export default function Hero() {
 
       <div className="relative z-10 container flex flex-col items-center">
         
-        {heroLogo && (
-            <AnimatedWrapper>
-                <Image
-                    src={heroLogo.imageUrl}
-                    alt={heroLogo.description}
-                    width={250}
-                    height={250}
-                    className="object-contain"
-                    data-ai-hint={heroLogo.imageHint}
-                />
-            </AnimatedWrapper>
-        )}
-
         <AnimatedWrapper delay={0.2}>
            <a href="#about" onClick={(e) => handleNavClick(e, '#about')}>
             <Button size="lg" className="mt-8 rounded-none">
