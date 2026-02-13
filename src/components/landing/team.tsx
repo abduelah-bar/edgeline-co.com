@@ -9,7 +9,7 @@ import { AnimatedWrapper } from './animated-wrapper';
 
 const teamMembersData = [
   { id: 'team-member-1', name: 'Jane Doe', title: 'CEO & Founder' },
-  { id: 'team-member-2', name: 'John Smith', title: 'sdfsdf' },
+  { id: 'team-member-2', name: 'John Smith', title: 'Chief Architect' },
   { id: 'team-member-3', name: 'Emily Jones', title: 'Project Manager' },
   { id: 'team-member-4', name: 'Michael Brown', title: 'Lead Engineer' },
 ];
@@ -26,7 +26,7 @@ export default function Team() {
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground">Our Expert Team</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-          fotter-2-2-2
+            Meet the talented professionals behind our success.
           </p>
         </div>
       </AnimatedWrapper>
