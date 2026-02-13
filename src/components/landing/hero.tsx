@@ -55,7 +55,7 @@ export default function Hero() {
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={128} />+
                 </p>
-                <p className="text-primary mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Projects Completed</p>
+                <p className="text-white mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Projects Completed</p>
               </div>
             </AnimatedWrapper>
             <AnimatedWrapper delay={0.6}>
@@ -63,7 +63,7 @@ export default function Hero() {
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
                 </p>
-                <p className="text-primary mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Happy Clients</p>
+                <p className="text-white mt-1 font-semibold" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.5)' }}>Happy Clients</p>
               </div>
             </AnimatedWrapper>
         </div>
