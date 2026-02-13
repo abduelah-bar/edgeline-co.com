@@ -5,7 +5,7 @@ import Header from "@/components/landing/header";
 import Hero from "@/components/landing/hero";
 import Projects from "@/components/landing/projects";
 import Services from "@/components/landing/services";
-import Testimonials from "@/components/landing/testimonials";
+import Blog from "@/components/landing/blog";
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <About />
         <Services />
         <Projects />
-        <Testimonials />
+        <Blog />
         <Faq />
       </main>
       <Footer />
