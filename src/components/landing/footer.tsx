@@ -19,9 +19,10 @@ export default function Footer() {
               <Building className="h-8 w-8 text-primary" />
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
-            <p className="text-muted-foreground">
-              Construction, Design & Execution. Your vision, our mission. We deliver excellence from concept to completion.
-            </p>
+            <div className="text-muted-foreground">
+              <p className="font-semibold tracking-wider text-foreground">CONSTRUCTION, DESIGN & EXECUTION</p>
+              <p className="mt-2">let's build your dream</p>
+            </div>
           </div>
           <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
             <div>
@@ -42,7 +43,7 @@ export default function Footer() {
              <div>
               <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
-                <li>Riyadh, Saudi Arabia</li>
+                <li>Saudi arabia, Riyadh</li>
                 <li>test@example.com</li>
                 <li>+966 50 117 5465</li>
               </ul>
