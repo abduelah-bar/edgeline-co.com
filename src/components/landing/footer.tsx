@@ -53,7 +53,7 @@ export default function Footer() {
               <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
                 <li>King Khalid Branch Road, Umm Al-Hamam Al-Gharbi, Riyadh 12329, Saudi Arabia</li>
-                <li>test@example.com</li>
+                <li>info@edgeline-co.com</li>
                 <li>+966 50 117 5465</li>
               </ul>
             </div>

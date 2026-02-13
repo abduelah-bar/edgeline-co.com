@@ -83,8 +83,8 @@ export default function PrivacyPolicyPage() {
                     <h2 className="text-2xl font-bold text-foreground">Contact Us</h2>
                     <p>If you have any questions about this Privacy Policy, please contact us:</p>
                     <ul className="list-disc list-inside space-y-1">
-                        <li>By email: test@example.com</li>
-                        <li>By phone number: +966 0501175465</li>
+                        <li>By email: info@edgeline-co.com</li>
+                        <li>By phone number: +966 50 117 5465</li>
                     </ul>
                 </div>
             </article>
