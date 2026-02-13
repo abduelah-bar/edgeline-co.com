@@ -39,6 +39,9 @@ export default function Hero() {
         />
       )}
 
+      <div className="absolute inset-0 bg-black/40 z-0" />
+
+
       <div className="relative z-10 container flex flex-col items-center">
         
         <AnimatedWrapper delay={0.2}>
@@ -49,9 +52,9 @@ export default function Hero() {
           </a>
         </AnimatedWrapper>
         
-        <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-md">
+        <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-lg">
             <AnimatedWrapper delay={0.4}>
-              <div className="text-center">
+              <div className="text-center bg-black/30 backdrop-blur-sm p-6 rounded-lg">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={128} />+
                 </p>
@@ -59,7 +62,7 @@ export default function Hero() {
               </div>
             </AnimatedWrapper>
             <AnimatedWrapper delay={0.6}>
-              <div className="text-center">
+              <div className="text-center bg-black/30 backdrop-blur-sm p-6 rounded-lg">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
                   <AnimatedNumber to={4253} format={(v) => Math.floor(v).toLocaleString('en-US')} />
                 </p>
