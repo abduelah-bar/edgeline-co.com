@@ -2,15 +2,12 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { ArrowRight } from 'lucide-react';
 import { AnimatedWrapper } from './animated-wrapper';
 import AnimatedNumber from './animated-number';
 import * as React from 'react';
-import Link from 'next/link';
 
 export default function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'hero-background');
-  const cardImage = PlaceHolderImages.find(img => img.id === 'residential-house-card');
 
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
     e.preventDefault();
@@ -71,31 +68,6 @@ export default function Hero() {
             </AnimatedWrapper>
         </div>
       </div>
-      
-      {cardImage && (
-        <AnimatedWrapper className="hidden md:block absolute bottom-12 right-16 z-20" delay={0.8}>
-          <div className="bg-card/80 backdrop-blur-sm p-6 max-w-xs shadow-lg border border-border/20">
-              <div className="flex gap-4">
-                  <div>
-                      <h3 className="font-bold text-lg">Residential Complex</h3>
-                      <p className="text-primary font-bold text-2xl mt-2">78 000 M²</p>
-                      <p className="text-muted-foreground text-sm">Completed residential project.</p>
-                      <Link href="#" className="flex items-center gap-2 text-sm font-semibold text-primary mt-4">
-                          View Details <ArrowRight className="w-4 h-4" />
-                      </Link>
-                  </div>
-                  <Image 
-                      src={cardImage.imageUrl}
-                      alt={cardImage.description}
-                      width={100}
-                      height={100}
-                      className="object-cover"
-                      data-ai-hint={cardImage.imageHint}
-                  />
-              </div>
-          </div>
-        </AnimatedWrapper>
-      )}
     </section>
   );
 }
