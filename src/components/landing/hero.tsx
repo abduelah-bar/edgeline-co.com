@@ -39,7 +39,7 @@ export default function Hero() {
         />
       )}
 
-      <div className="absolute inset-0 bg-black/40 z-0" />
+
 
 
       <div className="relative z-10 container flex flex-col items-center">
