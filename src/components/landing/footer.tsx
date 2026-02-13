@@ -29,7 +29,7 @@ export default function Footer() {
               <ul className="mt-4 space-y-2">
                 <li><Link href="#services" className="text-muted-foreground hover:text-primary">Services</Link></li>
                 <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Projects</Link></li>
-                <li><Link href="#testimonials" className="text-muted-foreground hover:text-primary">Testimonials</Link></li>
+                <li><Link href="#faq" className="text-muted-foreground hover:text-primary">FAQ</Link></li>
               </ul>
             </div>
             <div>
@@ -42,8 +42,9 @@ export default function Footer() {
              <div>
               <h3 className="font-semibold">Contact</h3>
               <ul className="mt-4 space-y-2 text-muted-foreground">
+                <li>Riyadh, Saudi Arabia</li>
                 <li>test@example.com</li>
-                <li>+966 0501175465</li>
+                <li>+966 50 117 5465</li>
               </ul>
             </div>
           </div>

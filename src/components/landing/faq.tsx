@@ -18,10 +18,6 @@ const faqs = [
     answer: 'We manage complex projects with high technical efficiency to ensure successful execution that meets the expectations of all stakeholders. Our holistic approach allows us to design, construct, oversee, and manage high-end projects effectively.',
   },
   {
-    question: 'Do you handle both commercial and residential projects?',
-    answer: 'Yes, our portfolio includes a diverse range of projects, including corporate headquarters, commercial showrooms, and luxury private residences. We tailor our services to meet the unique needs of each client.',
-  },
-  {
     question: 'What sets ELC Company apart from other contractors?',
     answer: 'We strive to be partners in success and lifestyle companions for our clients, not just traditional contractors. We are dedicated to providing unique, imitation-free, and highly customized projects executed to impeccable international standards, focusing on creative solutions and consistent excellence.',
   },
