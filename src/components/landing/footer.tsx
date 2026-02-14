@@ -33,15 +33,7 @@ export default function Footer() {
               <p className="mt-2">let's build your dream</p>
             </div>
           </div>
-          <div className="md:col-span-2 grid grid-cols-2 sm:grid-cols-3 gap-8">
-            <div>
-              <h3 className="font-semibold">Quick Links</h3>
-              <ul className="mt-4 space-y-2">
-                <li><Link href="#services" className="text-muted-foreground hover:text-primary">Services</Link></li>
-                <li><Link href="#projects" className="text-muted-foreground hover:text-primary">Projects</Link></li>
-                <li><Link href="#faq" className="text-muted-foreground hover:text-primary">FAQ</Link></li>
-              </ul>
-            </div>
+          <div className="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div>
               <h3 className="font-semibold">Legal</h3>
               <ul className="mt-4 space-y-2">
