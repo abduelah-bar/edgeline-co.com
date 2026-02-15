@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Instagram, Building } from 'lucide-react';
+import { Instagram, Home } from 'lucide-react';
 import { Section } from './section';
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
@@ -13,9 +13,22 @@ const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
     </svg>
 );  
 
+const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="currentColor"
+        {...props}
+    >
+        <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-2.43.05-4.88-.36-7.02-1.98-1.57-1.14-2.58-2.73-3.01-4.45-.49-1.99-.5-4.12-.04-6.11.45-1.93 1.4-3.74 2.78-5.11 2.29-2.29 5.37-3.23 8.39-2.73.56.09 1.12.23 1.66.41V.02zm-1.89 11.23c-.22-1.63-1.16-3.03-2.4-4.04-1.24-1.01-2.83-1.5-4.4-1.4-.8.05-1.58.26-2.31.6-.83.39-1.53.94-2.11 1.61-.58.67-1.03 1.45-1.29 2.29-.26.84-.36 1.72-.31 2.61.05.89.26 1.76.61 2.59.35.83.84 1.59 1.45 2.25s1.33 1.17 2.11 1.52c.78.35 1.6.54 2.44.57.84.03 1.69-.09 2.49-.37.8-.28 1.54-.7 2.18-1.26.64-.56 1.16-1.24 1.53-2.02.37-.78.58-1.64.6-2.52Z" />
+    </svg>
+);
+
+
 const socialLinks = [
   { name: 'Instagram', icon: Instagram, href: 'https://www.instagram.com/elc_contracting?igsh=cmQyNTBzNGFyZzUw' },
   { name: 'WhatsApp', icon: WhatsAppIcon, href: 'https://wa.me/966501175465' },
+  { name: 'TikTok', icon: TikTokIcon, href: 'https://www.tiktok.com/@elc_company?_r=1&_t=ZS-93tJKvhRmTJ' }
 ];
 
 export default function Footer() {
@@ -25,7 +38,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="flex flex-col gap-4">
             <Link href="/" className="flex items-center gap-2">
-              <Building className="h-8 w-8 text-primary" />
+              <Home className="h-8 w-8 text-primary" />
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <div className="text-muted-foreground">
