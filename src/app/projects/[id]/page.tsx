@@ -2,7 +2,7 @@
 
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 import Image from 'next/image';
-import { notFound, useParams } from 'next/navigation';
+import { notFound } from 'next/navigation';
 import Header from '@/components/landing/header';
 import Footer from '@/components/landing/footer';
 import { Section } from '@/components/landing/section';
@@ -10,9 +10,30 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
+import type { Metadata } from 'next';
 
-export default function ProjectDetailsPage() {
-  const params = useParams();
+type Props = {
+  params: { id: string }
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const id = params.id;
+  const project = PlaceHolderImages.find(img => img.id === id);
+
+  if (!project) {
+    return {
+      title: 'Project Not Found | ELC Company',
+      description: "The project you are looking for could not be found.",
+    }
+  }
+
+  return {
+    title: `${project.description} | ELC Company`,
+    description: project.longDescription?.substring(0, 160) || `View details about the ${project.description} project by ELC Company.`,
+  }
+}
+
+export default function ProjectDetailsPage({ params }: Props) {
   const id = params.id as string;
   const project = PlaceHolderImages.find(img => img.id === id);
 
@@ -60,7 +81,7 @@ export default function ProjectDetailsPage() {
                             <div className="relative aspect-video w-full max-w-6xl mx-auto rounded-lg overflow-hidden shadow-lg">
                                 <Image
                                     src={image.imageUrl}
-                                    alt={`Project image ${index + 1}`}
+                                    alt={`Project image ${index + 1} for ${project.description}`}
                                     fill
                                     className="object-cover"
                                     data-ai-hint={image.imageHint}

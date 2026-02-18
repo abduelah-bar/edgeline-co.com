@@ -5,6 +5,12 @@ import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | ELC Company',
+  description: 'Read the privacy policy for ELC Company. We are committed to protecting your data and privacy when using our construction and design services.',
+};
 
 export default function PrivacyPolicyPage() {
   return (
@@ -17,7 +23,7 @@ export default function PrivacyPolicyPage() {
                     <div className="text-left">
                         <h1 className="text-4xl md:text-5xl font-bold">Privacy Policy</h1>
                         <p className="mt-4 text-xl text-muted-foreground">
-                            Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                            Last updated: July 2024
                         </p>
                     </div>
                 </AnimatedWrapper>

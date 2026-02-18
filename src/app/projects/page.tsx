@@ -8,6 +8,12 @@ import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ArrowLeft, Eye } from 'lucide-react';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Our Projects | ELC Company',
+  description: 'Explore a collection of our best work in construction and design. See how ELC Company delivers excellence in Saudi Arabia.',
+};
 
 export default function ProjectsPage() {
   const allProjects = PlaceHolderImages.filter(img => img.id.startsWith('project-'));
