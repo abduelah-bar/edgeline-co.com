@@ -10,12 +10,37 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'ELC Company (Edge Line)',
+    alternateName: ['ELC', 'Edge Line', 'ELC Company'],
+    url: 'https://www.edgeline-co.com',
+    logo: 'https://i.imgur.com/6Y7gfdU.png',
+    contactPoint: {
+      '@type': 'ContactPoint',
+      telephone: '+966-55-502-0763',
+      contactType: 'customer service',
+      areaServed: 'SA',
+      availableLanguage: ['en', 'Arabic'],
+    },
+    sameAs: [
+      'https://www.instagram.com/elc.saudi/',
+      'https://x.com/elc_saudi?s=21',
+    ],
+  };
+
   return (
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        />
       </head>
       <body className="font-body antialiased">
         {children}
