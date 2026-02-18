@@ -26,14 +26,15 @@ export default function About() {
         <AnimatedWrapper delay={0.2}>
           <div className="flex flex-col gap-6">
             <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground">OUR STORY: FROM THE BEGINNING</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-foreground">Our Story: Leading Construction and Design in Riyadh</h2>
+              <h3 className="text-xl md:text-2xl font-semibold text-primary mt-2">From Vision to Reality with ELC Company</h3>
             </div>
             <div className="space-y-4 text-muted-foreground text-base">
               <p>
-                ELC Company was established to provide unique, unmatched, and highly sought-after construction, interior design, fit-out, and project management services, in addition to our professional specialization in the fabrication of exhibition booths and signage. We are dedicated to providing our clients with the finest quality deliverables, executed to impeccable international standards.
+                ELC Company was established to provide unique, unmatched, and highly sought-after <strong>construction, interior design, fit-out, and project management services</strong> in Saudi Arabia. We are dedicated to providing our clients with the finest quality deliverables, executed to impeccable international standards.
               </p>
               <p>
-                ELC Company’s holistic approach enables us to effectively design, construct, oversee, and manage high-end projects, with a full commitment to providing "Turnkey" solutions from the initial concept and idea through to the final handover. This ensures that each project is meticulously executed, highly customized, and imitation-free.
+                Our holistic approach enables us to effectively design, construct, oversee, and manage high-end projects, with a full commitment to providing <strong>"Turnkey" solutions</strong> from the initial concept and idea through to the final handover. This ensures that each project is meticulously executed, highly customized, and imitation-free.
               </p>
               <p>
                 Through our flexibility and high responsiveness, ELC Company’s elite services allow us to be partners in success and lifestyle companions for our clients, rather than just traditional contractors. We constantly strive to enhance our customers' experiences through the application of superior standards, the development of creative solutions, and consistent excellence in design.

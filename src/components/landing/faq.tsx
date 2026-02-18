@@ -33,9 +33,9 @@ export default function Faq() {
       <div className="grid md:grid-cols-2 gap-12">
         <AnimatedWrapper>
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Frequently Asked Questions</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-foreground">Your Questions Answered</h2>
             <p className="mt-4 text-lg text-muted-foreground">
-              Find answers to common questions about our services and process.
+              Find answers to common questions about our construction and design services in Riyadh.
             </p>
           </div>
         </AnimatedWrapper>

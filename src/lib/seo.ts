@@ -28,4 +28,28 @@ export const siteMetadata: Metadata = {
   icons: {
     icon: 'https://i.imgur.com/6Y7gfdU.png',
   },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.edgeline-co.com',
+    siteName: 'ELC Company (Edge Line)',
+    title: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
+    description: 'شركة ELC (Edge Line) رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض.',
+    images: [
+      {
+        url: 'https://i.imgur.com/6Y7gfdU.png', 
+        width: 1200,
+        height: 630,
+        alt: 'ELC Company (Edge Line) - Construction and Design',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
+    description: 'شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع في الرياض.',
+    site: '@elc_saudi',
+    creator: '@elc_saudi',
+    images: ['https://i.imgur.com/6Y7gfdU.png'],
+  },
 };

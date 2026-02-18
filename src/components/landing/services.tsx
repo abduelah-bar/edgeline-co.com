@@ -58,9 +58,9 @@ export default function Services() {
     <Section id="services" className="bg-card pt-12">
       <AnimatedWrapper>
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground">OUR SERVICES</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground">Comprehensive Contracting Services</h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Delivering excellence from concept to completion.
+            From initial design to final handover, we deliver excellence at every stage of your project.
           </p>
         </div>
       </AnimatedWrapper>
