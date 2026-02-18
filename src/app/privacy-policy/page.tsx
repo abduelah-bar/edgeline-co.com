@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | ELC Company',
+  title: 'Privacy Policy',
   description: 'Read the privacy policy for ELC Company. We are committed to protecting your data and privacy when using our construction and design services.',
 };
 

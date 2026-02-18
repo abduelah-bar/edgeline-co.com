@@ -11,7 +11,7 @@ import { ArrowLeft, Eye } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Our Projects | ELC Company',
+  title: 'Our Projects',
   description: 'Explore a collection of our best work in construction and design. See how ELC Company delivers excellence in Saudi Arabia.',
 };
 

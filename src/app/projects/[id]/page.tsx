@@ -22,13 +22,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   if (!project) {
     return {
-      title: 'Project Not Found | ELC Company',
+      title: 'Project Not Found',
       description: "The project you are looking for could not be found.",
     }
   }
 
   return {
-    title: `${project.description} | ELC Company`,
+    title: project.description,
     description: project.longDescription?.substring(0, 160) || `View details about the ${project.description} project by ELC Company.`,
   }
 }

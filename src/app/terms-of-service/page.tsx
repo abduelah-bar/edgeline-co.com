@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Terms of Service | ELC Company',
+  title: 'Terms of Service',
   description: 'Read the terms of service for using the ELC Company website and services.',
 };
 
