@@ -1122,6 +1122,31 @@
       "description": "Modern office interior showing collaborative space",
       "imageUrl": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1080&auto=format&fit=crop&ixlib=rb-4.0.3",
       "imageHint": "office interior"
+    },
+    {
+      "id": "project-private-villa-al-sahafa",
+      "description": "Private Villa - Al-Sahafa District",
+      "longDescription": "<p>ELC Contracting is proud to showcase this premium residential project in the heart of the Al-Sahafa district. Our team managed the entire process from Initial Design to the final Turnkey Handover, ensuring a seamless transition from concept to a fully furnished luxury home.</p> <h3>Project Highlights & Premium Materials:</h3> <ul> <li><strong>Custom Design:</strong> We created the architectural and interior identity from scratch, tailored to meet the client's vision and the prestigious nature of the location.</li> <li><strong>Superior Material Selection:</strong> <ul> <li><strong>Italian Marble:</strong> Used for flooring and entrance areas to provide a timeless sense of luxury.</li> <li><strong>Spanish Porcelain:</strong> Carefully selected for its durability and elegant finish in specific zones.</li> <li><strong>German Wood:</strong> High-quality German wood was utilized for wall cladding and bespoke decorative features, ensuring a warm and natural feel.</li> </ul> </li> <li><strong>Full Furnishing:</strong> We sourced and installed luxury furniture sets and majlis seating, meticulously coordinated with the marble and wood elements for a harmonious aesthetic.</li> <li><strong>Turnkey Execution:</strong> The project included all technical installations, from smart lighting systems to HVAC, making the villa ready for immediate occupancy.</li> </ul> <h3>The ELC Commitment:</h3> <p>At ELC Contracting, we don't just build; we curate every detail. By integrating Italian marble and German wood under the supervision of our expert execution team, we deliver a residential masterpiece that redefines quality and sophistication.</p>",
+      "imageUrl": "https://i.imgur.com/44ozzEQ.jpeg",
+      "imageHint": "luxury villa modern",
+      "gallery": [
+        {
+          "imageUrl": "https://i.imgur.com/O4yo9av.jpeg",
+          "imageHint": "luxury interior"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/3jxqDqI.jpeg",
+          "imageHint": "modern living"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/pLESaH0.jpeg",
+          "imageHint": "house exterior"
+        },
+        {
+          "imageUrl": "https://i.imgur.com/nUQV5XW.jpeg",
+          "imageHint": "villa design"
+        }
+      ]
     }
   ]
 }

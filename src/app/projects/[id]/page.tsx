@@ -21,10 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const description = project.longDescription || project.description;
+  const plainTextDescription = description.replace(/<[^>]+>/g, ' ').replace(/\s\s+/g, ' ').trim();
 
   return {
     title: `${project.description}`,
-    description: description.substring(0, 160),
+    description: plainTextDescription.substring(0, 160),
     openGraph: {
         images: [project.imageUrl],
     },

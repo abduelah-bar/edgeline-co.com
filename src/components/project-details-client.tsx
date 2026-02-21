@@ -31,11 +31,10 @@ export default function ProjectDetailsClient({ project }: { project: ImagePlaceh
         </AnimatedWrapper>
 
         <AnimatedWrapper delay={0.2}>
-            <div className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-lg">
-                <p>
-                    {project.longDescription || project.description}
-              </p>
-            </div>
+            <div
+              className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-lg [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:text-foreground [&_h3]:mt-6 [&_ul]:list-disc [&_ul]:list-inside [&_li]:mt-2 [&_strong]:text-foreground"
+              dangerouslySetInnerHTML={{ __html: project.longDescription || project.description }}
+            />
         </AnimatedWrapper>
 
         {galleryImages.length > 0 && (
