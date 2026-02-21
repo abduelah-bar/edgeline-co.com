@@ -21,14 +21,22 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   const description = project.longDescription || project.description;
+  // Strip HTML tags for metadata
   const plainTextDescription = description.replace(/<[^>]+>/g, ' ').replace(/\s\s+/g, ' ').trim();
 
   return {
     title: `${project.description}`,
     description: plainTextDescription.substring(0, 160),
     openGraph: {
-        images: [project.imageUrl],
+        images: project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl],
+        title: project.description,
+        description: plainTextDescription.substring(0, 160),
     },
+    twitter: {
+      title: project.description,
+      description: plainTextDescription.substring(0, 160),
+      images: project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl],
+    }
   };
 }
 

@@ -34,10 +34,10 @@ const socialLinks = [
 ];
 
 export default function Footer() {
-  const [year, setYear] = useState<number | null>(null);
+  const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    setYear(new Date().getFullYear());
+    setIsClient(true);
   }, []);
 
   return (
@@ -75,7 +75,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-center sm:text-left">
             <p className="text-sm text-muted-foreground">
-              &copy; {year} ELC COMPANY. All rights reserved.
+              &copy; {isClient ? new Date().getFullYear() : ''} ELC COMPANY. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
               Developed by <Link href="#" className="font-semibold text-primary hover:underline">BAZ DEVELOPMENT</Link>
