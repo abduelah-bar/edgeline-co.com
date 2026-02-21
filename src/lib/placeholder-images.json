@@ -427,26 +427,6 @@
           "imageHint": "modern apartments"
         },
         {
-          "imageUrl": "https://i.imgur.com/44ozzEQ.jpeg",
-          "imageHint": "luxury house"
-        },
-        {
-          "imageUrl": "https://i.imgur.com/O4yo9av.jpeg",
-          "imageHint": "luxury house"
-        },
-        {
-          "imageUrl": "https://i.imgur.com/3jxqDqI.jpeg",
-          "imageHint": "luxury house"
-        },
-        {
-          "imageUrl": "https://i.imgur.com/pLESaH0.jpeg",
-          "imageHint": "luxury house"
-        },
-        {
-          "imageUrl": "https://i.imgur.com/nUQV5XW.jpeg",
-          "imageHint": "luxury house"
-        },
-        {
           "imageUrl": "https://i.imgur.com/j3G9glq.jpeg",
           "imageHint": "luxury house"
         },
@@ -1145,6 +1125,27 @@
         {
           "imageUrl": "https://i.imgur.com/nUQV5XW.jpeg",
           "imageHint": "villa design"
+        }
+      ]
+    },
+    {
+      "id": "project-test",
+      "description": "Test Project",
+      "longDescription": "<p>This is a placeholder for the Test Project. You can edit this description and add more details about your project here. This section supports HTML for formatting, so you can add things like <strong>bold text</strong>, headings, and lists.</p> <h3>Key Features:</h3> <ul> <li>Feature one of the test project.</li> <li>Another key feature.</li> <li>A third important detail.</li> </ul> <p>Replace the placeholder images in the gallery with your own hosted images to showcase your work.</p>",
+      "imageUrl": "https://images.unsplash.com/photo-1758685734160-3a2f6f73f3b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx0ZXN0JTIwcHJvamVjdHxlbnwwfHx8fDE3NzE3MTU3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "test project",
+      "gallery": [
+        {
+          "imageUrl": "https://picsum.photos/seed/test2/1280/720",
+          "imageHint": "gallery image"
+        },
+        {
+          "imageUrl": "https://picsum.photos/seed/test3/1280/720",
+          "imageHint": "gallery image"
+        },
+        {
+          "imageUrl": "https://picsum.photos/seed/test4/1280/720",
+          "imageHint": "gallery image"
         }
       ]
     }

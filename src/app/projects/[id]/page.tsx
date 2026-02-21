@@ -20,22 +20,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  const description = project.longDescription || project.description;
-  // Strip HTML tags for metadata
-  const plainTextDescription = description.replace(/<[^>]+>/g, ' ').replace(/\s\s+/g, ' ').trim();
+  // Use the short description for metadata as it does not contain HTML
+  const metaDescription = project.description;
+
+  const images = project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl];
+  // Filter out any empty or invalid image URLs
+  const validImages = images.filter(img => img && typeof img === 'string');
 
   return {
     title: `${project.description}`,
-    description: plainTextDescription.substring(0, 160),
+    description: metaDescription.substring(0, 160),
     openGraph: {
-        images: project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl],
+        images: validImages.length > 0 ? validImages : undefined,
         title: project.description,
-        description: plainTextDescription.substring(0, 160),
+        description: metaDescription.substring(0, 160),
     },
     twitter: {
+      card: 'summary_large_image',
       title: project.description,
-      description: plainTextDescription.substring(0, 160),
-      images: project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl],
+      description: metaDescription.substring(0, 160),
+      images: validImages.length > 0 ? validImages : undefined,
     }
   };
 }
