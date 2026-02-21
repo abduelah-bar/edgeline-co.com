@@ -1,6 +1,8 @@
+'use client';
 import Link from 'next/link';
 import { Instagram, Home } from 'lucide-react';
 import { Section } from './section';
+import { useState, useEffect } from 'react';
 
 const WhatsAppIcon = (props: React.SVGProps<SVGSVGElement>) => (
     <svg
@@ -32,6 +34,12 @@ const socialLinks = [
 ];
 
 export default function Footer() {
+  const [year, setYear] = useState<number | null>(null);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
+
   return (
     <footer id="contacts" className="bg-card border-t border-border/50">
       <Section className="py-12">
@@ -67,7 +75,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-border/50 flex flex-col sm:flex-row justify-between items-center gap-4">
           <div className="text-center sm:text-left">
             <p className="text-sm text-muted-foreground">
-              &copy; {new Date().getFullYear()} ELC COMPANY. All rights reserved.
+              &copy; {year} ELC COMPANY. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
               Developed by <Link href="#" className="font-semibold text-primary hover:underline">BAZ DEVELOPMENT</Link>

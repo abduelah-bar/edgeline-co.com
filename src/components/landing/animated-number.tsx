@@ -16,23 +16,17 @@ export default function AnimatedNumber({ to, from = 0, className, format }: Prop
   const { ref: inViewRef, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
   useEffect(() => {
-    if (inView) {
-      const node = nodeRef.current;
-      if (node) {
-        const controls = animate(from, to, {
-          duration: 2,
-          ease: 'easeOut',
-          onUpdate(value) {
-            node.textContent = format ? format(value) : value.toFixed(0);
-          },
-        });
-        return () => controls.stop();
-      }
-    } else {
-        const node = nodeRef.current;
-        if(node) {
-            node.textContent = format ? format(from) : from.toFixed(0);
-        }
+    const node = nodeRef.current;
+    // Only run the animation when the component is in view and the node is available.
+    if (inView && node) {
+      const controls = animate(from, to, {
+        duration: 2,
+        ease: 'easeOut',
+        onUpdate(value) {
+          node.textContent = format ? format(value) : value.toFixed(0);
+        },
+      });
+      return () => controls.stop();
     }
   }, [inView, from, to, format]);
   
@@ -41,5 +35,6 @@ export default function AnimatedNumber({ to, from = 0, className, format }: Prop
     inViewRef(el);
   };
 
-  return <span ref={setRefs} className={className} />;
+  // Render the initial 'from' value directly to prevent hydration mismatch.
+  return <span ref={setRefs} className={className}>{format ? format(from) : from.toFixed(0)}</span>;
 }
