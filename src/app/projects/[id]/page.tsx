@@ -9,6 +9,11 @@ type Props = {
   params: { id: string }
 }
 
+const stripHtml = (html: string) => {
+  // A simple and safe way to strip HTML on the server
+  return html.replace(/<[^>]*>?/gm, '');
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const id = params.id;
   const project = PlaceHolderImages.find(p => p.id === id);
@@ -20,8 +25,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
   }
 
-  // Use the short description for metadata as it does not contain HTML
-  const metaDescription = project.description;
+  // Use the stripped long description for metadata.
+  const metaDescription = stripHtml(project.longDescription || project.description);
 
   const images = project.gallery ? [project.imageUrl, ...project.gallery.map(g => g.imageUrl)] : [project.imageUrl];
   // Filter out any empty or invalid image URLs
