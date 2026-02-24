@@ -1,0 +1,124 @@
+{
+  "projectSummaries": [
+    {
+      "id": "project-1",
+      "description": "Tasahil Exhibition",
+      "imageUrl": "https://i.imgur.com/T4RSt1C.jpeg",
+      "imageHint": "bridge architecture"
+    },
+    {
+      "id": "project-17",
+      "description": "Tasahil Office",
+      "imageUrl": "https://i.imgur.com/54ZU1Jt.jpeg",
+      "imageHint": "Tasahil Office"
+    },
+    {
+      "id": "project-6",
+      "description": "Chairman of the Board’s Office at Tasahil Exhibition",
+      "imageUrl": "https://i.imgur.com/OgX5BOt.jpeg",
+      "imageHint": ""
+    },
+    {
+      "id": "project-4",
+      "description": "Raseed Holding Office",
+      "imageUrl": "https://i.imgur.com/Rp1OJZU.jpeg",
+      "imageHint": "refinery night"
+    },
+    {
+      "id": "project-5",
+      "description": "Nawader Al Riyadh",
+      "imageUrl": "https://i.imgur.com/Foegf86.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-3",
+      "description": "Al Waleed bin Talal's Private Office",
+      "imageUrl": "https://i.imgur.com/RwurkLi.jpeg",
+      "imageHint": "apartment building"
+    },
+    {
+      "id": "project-7",
+      "description": "Electronic Examination Hall – Al-Imam Mohammad Ibn Saud Islamic University",
+      "imageUrl": "https://i.imgur.com/t0XavEJ.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-8",
+      "description": "Perf Casa",
+      "imageUrl": "https://i.imgur.com/yxVJYg5.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-9",
+      "description": "Paese",
+      "imageUrl": "https://i.imgur.com/gr2DJ4n.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-10",
+      "description": "Riyadh Gallery Mall",
+      "imageUrl": "https://i.imgur.com/eTSGFoD.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-11",
+      "description": "Ladies’ Beauty Salon",
+      "imageUrl": "https://i.imgur.com/yJcWBM6.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-12",
+      "description": "Saudi Energy Efficiency Center SEEC",
+      "imageUrl": "https://i.imgur.com/4bbD80m.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-13",
+      "description": "Al Majed Oud",
+      "imageUrl": "https://i.imgur.com/Uy3VJ70.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-14",
+      "description": "Reception – Riyadh Gallery Mall",
+      "imageUrl": "https://i.imgur.com/wPjX1Z8.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-15",
+      "description": "Fountains and Landscape Contracting",
+      "imageUrl": "https://i.imgur.com/Q5PZn6f.png",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-16",
+      "description": "Stone Cladding Works (Supply & Build)",
+      "imageUrl": "https://i.imgur.com/IygNAoL.png",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-2",
+      "description": "The Face Shop",
+      "imageUrl": "https://i.imgur.com/0vXCdiv.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-18",
+      "description": "Dokhoon Al Emarat Showroom",
+      "imageUrl": "https://i.imgur.com/EDY9IqV.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-19",
+      "description": "Al-Rashid Contracting Exhibition Stand",
+      "imageUrl": "https://i.imgur.com/cchCRke.jpeg",
+      "imageHint": "modern office"
+    },
+    {
+      "id": "project-66",
+      "description": "Private Villa Project - Al-Sahafa District",
+      "imageUrl": "https://raw.githubusercontent.com/abduelah-bar/images/main/images/05.jpg",
+      "imageHint": "Private Villa Project - Al-Sahafa District"
+    }
+  ]
+}

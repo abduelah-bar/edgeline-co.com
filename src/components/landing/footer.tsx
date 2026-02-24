@@ -50,7 +50,7 @@ export default function Footer() {
               <span className="font-bold text-lg">ELC COMPANY</span>
             </Link>
             <div className="text-muted-foreground">
-              <p className="font-semibold tracking-wider text-foreground">CONSTRUCTION,DESIGN & ESECUTION</p>
+              <p className="font-semibold tracking-wider text-foreground">CONSTRUCTION,DESIGN & EXECUTION</p>
               <p className="mt-2">let's build your dream</p>
             </div>
           </div>
@@ -78,7 +78,7 @@ export default function Footer() {
               &copy; {isClient ? new Date().getFullYear() : ''} ELC COMPANY. All rights reserved.
             </p>
             <p className="text-sm text-muted-foreground">
-              Developed by <Link href="#" className="font-semibold text-primary hover:underline">BAZ DEVELOPMENT</Link>
+              Developed by <Link href="https://bazdev.com" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary hover:underline">BAZ DEVELOPMENT</Link>
             </p>
           </div>
           <div className="flex gap-4">

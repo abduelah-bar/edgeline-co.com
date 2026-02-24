@@ -2,8 +2,15 @@ import type {Metadata} from 'next';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { siteMetadata } from '@/lib/seo';
+import { Lexend } from 'next/font/google';
+import NextTopLoader from 'nextjs-toploader';
 
 export const metadata: Metadata = siteMetadata;
+
+const lexend = Lexend({
+  subsets: ['latin'],
+  variable: '--font-lexend',
+});
 
 export default function RootLayout({
   children,
@@ -34,15 +41,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
         />
       </head>
-      <body className="font-body antialiased">
+      <body className={`font-body antialiased ${lexend.variable}`}>
+        <NextTopLoader />
         {children}
         <Toaster />
       </body>

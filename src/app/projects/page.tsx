@@ -1,4 +1,4 @@
-import { PlaceHolderImages } from '@/lib/placeholder-images';
+import projectData from '@/lib/project-summaries.json';
 import Image from 'next/image';
 import { Card, CardContent } from '@/components/ui/card';
 import Header from '@/components/landing/header';
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 };
 
 export default function ProjectsPage() {
-  const allProjects = PlaceHolderImages.filter(img => img.id.startsWith('project-'));
+  const allProjects = projectData.projectSummaries;
 
   return (
     <div className="flex flex-col min-h-screen bg-background">

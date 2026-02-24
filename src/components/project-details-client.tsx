@@ -1,19 +1,15 @@
 'use client';
 
-import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft } from 'lucide-react';
 import { Section } from '@/components/landing/section';
 import { Button } from '@/components/ui/button';
 import { AnimatedWrapper } from '@/components/landing/animated-wrapper';
-import { cn } from '@/lib/utils';
 import type { ImagePlaceholder } from '@/lib/placeholder-images';
 
 
 export default function ProjectDetailsClient({ project }: { project: ImagePlaceholder }) {
-  const [selectedImage, setSelectedImage] = useState(project.imageUrl);
-
   const galleryImages = [
       { imageUrl: project.imageUrl, imageHint: project.imageHint },
       ...(project.gallery || [])
@@ -36,32 +32,20 @@ export default function ProjectDetailsClient({ project }: { project: ImagePlaceh
             </AnimatedWrapper>
 
             <AnimatedWrapper delay={0.2}>
-                <div className="relative aspect-video w-full max-w-5xl mx-auto mt-8 rounded-lg overflow-hidden shadow-lg">
-                    <Image
-                    src={selectedImage}
-                    alt={project.description}
-                    fill
-                    className="object-cover transition-all duration-300"
-                    data-ai-hint={project.imageHint}
-                    key={selectedImage}
-                    sizes='(max-width: 1024px) 100vw, 1280px'
-                    />
-                </div>
+                 <div
+                    className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-base md:text-lg px-4"
+                    dangerouslySetInnerHTML={{ __html: project.longDescription || project.description }}
+                />
             </AnimatedWrapper>
 
-            {galleryImages.length > 1 && (
-                <AnimatedWrapper delay={0.3}>
-                    <div className="max-w-5xl mx-auto mt-8">
-                         <h3 className="text-xl font-semibold mb-4 text-center">Project Gallery</h3>
-                        <div className="flex gap-4 overflow-x-auto pb-4 -mx-4 px-4">
-                            {galleryImages.map((image, index) => (
+            {galleryImages.length > 0 && (
+                <div className="max-w-5xl mx-auto mt-12">
+                     <h3 className="text-2xl font-semibold mb-8 text-center">Project Gallery</h3>
+                    <div className="flex flex-col gap-8">
+                        {galleryImages.map((image, index) => (
+                            <AnimatedWrapper key={index} delay={0.3 + index * 0.1}>
                                 <div
-                                    key={index}
-                                    className={cn(
-                                        "relative aspect-video w-32 md:w-40 flex-shrink-0 rounded-md overflow-hidden cursor-pointer border-4 transition-all",
-                                        selectedImage === image.imageUrl ? "border-primary" : "border-transparent hover:border-primary/50"
-                                    )}
-                                    onClick={() => setSelectedImage(image.imageUrl)}
+                                    className="relative aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl"
                                 >
                                     <Image
                                         src={image.imageUrl}
@@ -69,21 +53,17 @@ export default function ProjectDetailsClient({ project }: { project: ImagePlaceh
                                         fill
                                         className="object-cover"
                                         data-ai-hint={image.imageHint}
-                                        sizes="(max-width: 768px) 128px, 160px"
+                                        sizes="(max-width: 1024px) 100vw, 1024px"
+                                        priority={index < 2}
+                                        loading={index < 2 ? 'eager' : 'lazy'}
                                     />
                                 </div>
-                            ))}
-                        </div>
+                            </AnimatedWrapper>
+                        ))}
                     </div>
-                </AnimatedWrapper>
+                </div>
             )}
 
-            <AnimatedWrapper delay={0.4}>
-                 <div
-                    className="max-w-4xl mx-auto mt-8 space-y-4 text-muted-foreground text-lg"
-                    dangerouslySetInnerHTML={{ __html: project.longDescription || project.description }}
-                />
-            </AnimatedWrapper>
         </article>
     </Section>
   );
