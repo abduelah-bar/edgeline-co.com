@@ -45,13 +45,14 @@ export default function ProjectDetailsClient({ project }: { project: ImagePlaceh
                         {galleryImages.map((image, index) => (
                             <AnimatedWrapper key={index} delay={0.3 + index * 0.1}>
                                 <div
-                                    className="relative aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl"
+                                    className="w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-2xl"
                                 >
                                     <Image
                                         src={image.imageUrl}
                                         alt={`Project image ${index + 1}`}
-                                        fill
-                                        className="object-cover"
+                                        width={1200}
+                                        height={800}
+                                        className="w-full h-auto object-cover"
                                         data-ai-hint={image.imageHint}
                                         sizes="(max-width: 1024px) 100vw, 1024px"
                                         priority={index < 2}
