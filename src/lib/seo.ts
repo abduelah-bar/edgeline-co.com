@@ -6,7 +6,7 @@ export const siteMetadata: Metadata = {
     default: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
     template: `%s | ELC Company (Edge Line)`,
   },
-  description: 'شركة ELC (Edge Line) رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض، المملكة العربية السعودية. متخصصون في تحويل رؤيتك إلى واقع ملموس. Contact us at edgeline-co.com.',
+  description: 'Official website for ELC Company (Edge Line). شركة ELC (Edge Line) رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض، المملكة العربية السعودية. متخصصون في تحويل رؤيتك إلى واقع ملموس. Contact us at edgeline-co.com.',
   keywords: [
     'ELC',
     'Edge line',
@@ -34,7 +34,7 @@ export const siteMetadata: Metadata = {
     url: 'https://www.edgeline-co.com',
     siteName: 'ELC Company (Edge Line)',
     title: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
-    description: 'شركة ELC (Edge Line) رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض.',
+    description: 'Official website for ELC Company (Edge Line). شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض.',
     images: [
       {
         url: 'https://i.imgur.com/6Y7gfdU.png', 
@@ -47,7 +47,7 @@ export const siteMetadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
-    description: 'شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع في الرياض.',
+    description: 'Official website for ELC Company (Edge Line). شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع في الرياض.',
     site: '@elc_saudi',
     creator: '@elc_saudi',
     images: ['https://i.imgur.com/6Y7gfdU.png'],
