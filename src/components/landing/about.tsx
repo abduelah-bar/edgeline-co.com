@@ -1,4 +1,3 @@
-'use client';
 import Image from 'next/image';
 import { Section } from './section';
 import { AnimatedWrapper } from './animated-wrapper';

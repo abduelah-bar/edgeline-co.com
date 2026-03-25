@@ -19,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-  const structuredData = {
+  const organizationStructuredData = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'ELC Company (Edge Line)',
@@ -39,12 +39,23 @@ export default function RootLayout({
     ],
   };
 
+  const websiteStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'ELC Company (Edge Line)',
+    url: 'https://www.edgeline-co.com',
+  };
+
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
         />
       </head>
       <body className={`font-body antialiased ${lexend.variable}`}>
