@@ -4,6 +4,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { siteMetadata } from '@/lib/seo';
 import { Lexend } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
+import "yet-another-react-lightbox/styles.css";
 
 export const metadata: Metadata = siteMetadata;
 
@@ -39,7 +40,7 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"

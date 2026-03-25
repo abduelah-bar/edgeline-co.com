@@ -1,6 +1,12 @@
 {
   "projectSummaries": [
     {
+      "id": "test",
+      "description": "Private Villa Project - Al-Sahafa District",
+      "imageUrl": "https://raw.githubusercontent.com/abduelah-bar/ELC-Photos-Villa/refs/heads/master/1/26.jpg",
+      "imageHint": "test project"
+    },
+    {
       "id": "project-1",
       "description": "Tasahil Exhibition",
       "imageUrl": "https://i.imgur.com/T4RSt1C.jpeg",
@@ -11,6 +17,12 @@
       "description": "Tasahil Office",
       "imageUrl": "https://i.imgur.com/54ZU1Jt.jpeg",
       "imageHint": "Tasahil Office"
+    },
+    {
+      "id": "project-8774",
+      "description": "Coffee Booth at Tasaheel Finance Showroom",
+      "imageUrl": "https://i.imgur.com/aLtNqLv.jpeg",
+      "imageHint": "Coffee Booth at Tasaheel Finance Showroom"
     },
     {
       "id": "project-6",
@@ -115,10 +127,16 @@
       "imageHint": "modern office"
     },
     {
-      "id": "project-66",
-      "description": "Private Villa Project - Al-Sahafa District",
-      "imageUrl": "https://raw.githubusercontent.com/abduelah-bar/images/main/images/05.jpg",
-      "imageHint": "Private Villa Project - Al-Sahafa District"
+      "id": "project-al-arid-villa",
+      "description": "Private Villa Project - Al-Arid District",
+      "imageUrl": "https://raw.githubusercontent.com/abduelah-bar/Al-aqil-villa-1/master/59.jpg",
+      "imageHint": "Private Villa Project - Al-Arid District"
+    },
+    {
+      "id": "project-al-arid-villa-2",
+      "description": "Private Villa Project 2 - Al-Arid District",
+      "imageUrl": "https://raw.githubusercontent.com/abduelah-bar/ELC-Photos-Villa-2/main/1.jpg",
+      "imageHint": "Private Villa Project 2 - Al-Arid District"
     }
   ]
 }

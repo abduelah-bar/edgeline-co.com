@@ -1,5 +1,6 @@
 
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
+import projectData from '@/lib/project-summaries.json';
 import { notFound } from 'next/navigation';
 import Header from '@/components/landing/header';
 import Footer from '@/components/landing/footer';
@@ -8,7 +9,7 @@ import type { Metadata } from 'next';
 
 // Statically generate routes at build time
 export async function generateStaticParams() {
-  return PlaceHolderImages.map(project => ({
+  return projectData.projectSummaries.map(project => ({
     id: project.id,
   }));
 }
@@ -17,7 +18,7 @@ async function getProject(id: string): Promise<ImagePlaceholder | undefined> {
   return PlaceHolderImages.find(img => img.id === id);
 }
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { id:string } }): Promise<Metadata> {
   const project = await getProject(params.id);
 
   if (!project) {

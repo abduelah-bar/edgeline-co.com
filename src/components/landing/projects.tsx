@@ -7,8 +7,7 @@ import { AnimatedWrapper } from './animated-wrapper';
 import { Button } from '../ui/button';
 import Link from 'next/link';
 import { ArrowRight, Eye } from 'lucide-react';
-
-const projectIds = ['project-1', 'project-2', 'project-3', 'project-4'];
+const projectIds = ['test', 'project-al-arid-villa-2', 'project-3', 'project-4'];
 const projects = PlaceHolderImages.filter(img => projectIds.includes(img.id));
 
 export default function Projects() {
