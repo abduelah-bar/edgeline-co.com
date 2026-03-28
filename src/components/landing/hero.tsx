@@ -43,12 +43,12 @@ export default function Hero() {
 
       <div className="relative z-10 container flex flex-col items-center">
         <AnimatedWrapper>
-            <h1 
+            <p
                 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white" 
                 style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}
             >
                 ELC Company: Premier Construction & Design in Saudi Arabia
-            </h1>
+            </p>
             <p 
                 className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90"
                 style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}
