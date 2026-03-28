@@ -57,7 +57,7 @@ export default function Hero() {
         
         <AnimatedWrapper delay={0.2}>
            <a href="#contacts" onClick={(e) => handleNavClick(e, '#contacts')}>
-            <Button size="lg" className="mt-40">
+            <Button size="lg" className="mt-56">
               Contact Us
             </Button>
           </a>
