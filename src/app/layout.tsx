@@ -26,6 +26,8 @@ export default function RootLayout({
     alternateName: ['ELC', 'Edge Line', 'ELC Company'],
     url: 'https://www.edgeline-co.com',
     logo: 'https://i.imgur.com/6Y7gfdU.png',
+    image: 'https://i.imgur.com/6Y7gfdU.png',
+    description: 'Leading construction, interior design, and turnkey project management company in Riyadh, Saudi Arabia. We deliver high-end, custom projects to international standards.',
     contactPoint: {
       '@type': 'ContactPoint',
       telephone: '+966-55-502-0763',
@@ -34,8 +36,8 @@ export default function RootLayout({
       availableLanguage: ['en', 'Arabic'],
     },
     sameAs: [
-      'https://www.instagram.com/elc.saudi/',
-      'https://x.com/elc_saudi?s=21',
+      'https://www.instagram.com/elc_contracting?igsh=cmQyNTBzNGFyZzUw',
+      'https://www.tiktok.com/@elc_company?_r=1&_t=ZS-93tJKvhRmTJ'
     ],
   };
 

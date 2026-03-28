@@ -27,7 +27,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[90vh] min-h-[800px] flex items-end pb-24 justify-center text-center text-white overflow-hidden">
+    <section className="relative h-[90vh] min-h-[800px] flex items-center pb-12 justify-center text-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -39,20 +39,33 @@ export default function Hero() {
         />
       )}
 
-
-
+      <div className="absolute inset-0 bg-black/40" />
 
       <div className="relative z-10 container flex flex-col items-center">
+        <AnimatedWrapper>
+            <h1 
+                className="text-4xl sm:text-5xl md:text-6xl font-bold text-white" 
+                style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.7)' }}
+            >
+                ELC Company: Premier Construction & Design in Saudi Arabia
+            </h1>
+            <p 
+                className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-white/90"
+                style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.7)' }}
+            >
+                Your trusted partner for turnkey solutions, from architectural vision to flawless execution. Let's build your dream.
+            </p>
+        </AnimatedWrapper>
         
         <AnimatedWrapper delay={0.2}>
-           <a href="#about" onClick={(e) => handleNavClick(e, '#about')}>
-            <Button size="lg" className="mt-8 rounded-none">
-              About Us
+           <a href="#contacts" onClick={(e) => handleNavClick(e, '#contacts')}>
+            <Button size="lg" className="mt-8">
+              Contact Us
             </Button>
           </a>
         </AnimatedWrapper>
         
-        <div className="mt-12 grid grid-cols-2 gap-8 w-full max-w-lg">
+        <div className="mt-16 grid grid-cols-2 gap-8 w-full max-w-lg">
             <AnimatedWrapper delay={0.4}>
               <div className="text-center bg-black/30 backdrop-blur-sm p-6 rounded-lg">
                 <p className="text-5xl lg:text-6xl font-bold text-primary" style={{ textShadow: '2px 2px 8px rgba(0,0,0,0.5)' }}>
