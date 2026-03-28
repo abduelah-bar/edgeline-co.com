@@ -54,10 +54,46 @@ export default async function ProjectDetailsPage({ params }: { params: { id: str
     notFound();
   }
 
+  const descriptionText = (project.longDescription || project.description)
+    .replace(/<[^>]*>?/gm, '')
+    .substring(0, 300);
+
+  const articleStructuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.edgeline-co.com/projects/${project.id}`,
+    },
+    headline: project.description,
+    description: descriptionText,
+    image: project.imageUrl,
+    author: {
+      '@type': 'Organization',
+      name: 'ELC Company (Edge Line)',
+      url: 'https://www.edgeline-co.com',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'ELC Company (Edge Line)',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://i.imgur.com/6Y7gfdU.png',
+      },
+    },
+    // Using a generic date as project-specific dates are not available
+    datePublished: "2024-01-01",
+    dateModified: new Date().toISOString().split('T')[0], // Current date
+  };
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
       <main className="flex-grow">
+        <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{ __html: JSON.stringify(articleStructuredData) }}
+        />
         <ProjectDetailsClient project={project} />
       </main>
       <Footer />
