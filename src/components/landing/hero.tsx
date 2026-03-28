@@ -27,7 +27,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative h-[90vh] min-h-[800px] flex items-center pb-12 justify-center text-center text-white overflow-hidden">
+    <section className="relative h-[90vh] min-h-[800px] flex items-end pb-24 justify-center text-center text-white overflow-hidden">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -57,7 +57,7 @@ export default function Hero() {
         
         <AnimatedWrapper delay={0.2}>
            <a href="#contacts" onClick={(e) => handleNavClick(e, '#contacts')}>
-            <Button size="lg" className="mt-56">
+            <Button size="lg">
               Contact Us
             </Button>
           </a>
