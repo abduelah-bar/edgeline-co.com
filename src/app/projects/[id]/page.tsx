@@ -1,4 +1,5 @@
 
+
 import { PlaceHolderImages, type ImagePlaceholder } from '@/lib/placeholder-images';
 import projectData from '@/lib/project-summaries.json';
 import { notFound } from 'next/navigation';
@@ -7,9 +8,12 @@ import Footer from '@/components/landing/footer';
 import ProjectDetailsClient from '@/components/project-details-client';
 import type { Metadata } from 'next';
 
-// Statically generate routes at build time
+// Statically generate routes at build time, ensuring they exist in the main data source
 export async function generateStaticParams() {
-  return projectData.projectSummaries.map(project => ({
+  const allProjectIds = new Set(PlaceHolderImages.map(p => p.id));
+  const validSummaries = projectData.projectSummaries.filter(summary => allProjectIds.has(summary.id));
+  
+  return validSummaries.map(project => ({
     id: project.id,
   }));
 }
