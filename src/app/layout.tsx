@@ -24,7 +24,7 @@ export default function RootLayout({
     '@type': 'Organization',
     name: 'ELC Company (Edge Line)',
     alternateName: ['ELC', 'Edge Line', 'ELC Company'],
-    url: 'https://www.edgeline-co.com',
+    url: 'https://edgeline-co.com',
     logo: 'https://i.imgur.com/6Y7gfdU.png',
     image: 'https://i.imgur.com/6Y7gfdU.png',
     description: 'Leading construction, interior design, and turnkey project management company in Riyadh, Saudi Arabia. We deliver high-end, custom projects to international standards.',
@@ -37,7 +37,8 @@ export default function RootLayout({
     },
     sameAs: [
       'https://www.instagram.com/elc_contracting?igsh=cmQyNTBzNGFyZzUw',
-      'https://www.tiktok.com/@elc_company?_r=1&_t=ZS-93tJKvhRmTJ'
+      'https://www.tiktok.com/@elc_company?_r=1&_t=ZS-93tJKvhRmTJ',
+      'https://www.edgeline-co.com'
     ],
   };
 
@@ -45,7 +46,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'ELC Company (Edge Line)',
-    url: 'https://www.edgeline-co.com',
+    url: 'https://edgeline-co.com',
   };
 
   return (

@@ -3,7 +3,7 @@ import projectData from '@/lib/project-summaries.json';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const siteUrl = 'https://www.edgeline-co.com';
+  const siteUrl = 'https://edgeline-co.com';
 
   const allProjectIds = new Set(PlaceHolderImages.map(p => p.id));
   const validSummaries = projectData.projectSummaries.filter(summary => allProjectIds.has(summary.id));

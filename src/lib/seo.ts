@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
 export const siteMetadata: Metadata = {
-  metadataBase: new URL('https://www.edgeline-co.com'),
+  metadataBase: new URL('https://edgeline-co.com'),
   title: {
     default: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
     template: `%s | ELC Company (Edge Line)`,
@@ -35,7 +35,7 @@ export const siteMetadata: Metadata = {
     'ELC السعودية',
     'Edge Line KSA',
   ],
-  authors: [{ name: 'ELC Company', url: 'https://www.edgeline-co.com' }],
+  authors: [{ name: 'ELC Company', url: 'https://edgeline-co.com' }],
   creator: 'ELC Company',
   icons: {
     icon: 'https://i.imgur.com/6Y7gfdU.png',
@@ -43,7 +43,7 @@ export const siteMetadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://www.edgeline-co.com',
+    url: 'https://edgeline-co.com',
     siteName: 'ELC Company (Edge Line)',
     title: 'ELC Company (Edge Line) | مقاولات وتصميم وتنفيذ في الرياض',
     description: 'Official website for ELC Company (Edge Line). شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض.',
