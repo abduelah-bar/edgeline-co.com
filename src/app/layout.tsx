@@ -5,6 +5,7 @@ import { siteMetadata } from '@/lib/seo';
 import { Lexend } from 'next/font/google';
 import NextTopLoader from 'nextjs-toploader';
 import "yet-another-react-lightbox/styles.css";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = siteMetadata;
 
@@ -63,6 +64,7 @@ export default function RootLayout({
         <NextTopLoader />
         {children}
         <Toaster />
+        <SpeedInsights />
       </body>
     </html>
   );
