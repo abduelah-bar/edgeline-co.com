@@ -25,8 +25,6 @@ export default function RootLayout({
     name: 'ELC Company (Edge Line)',
     alternateName: ['ELC', 'Edge Line', 'ELC Company'],
     url: 'https://edgeline-co.com',
-    logo: 'https://i.imgur.com/6Y7gfdU.png',
-    image: 'https://i.imgur.com/6Y7gfdU.png',
     description: 'Leading construction, interior design, and turnkey project management company in Riyadh, Saudi Arabia. We deliver high-end, custom projects to international standards.',
     contactPoint: {
       '@type': 'ContactPoint',

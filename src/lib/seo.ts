@@ -37,9 +37,6 @@ export const siteMetadata: Metadata = {
   ],
   authors: [{ name: 'ELC Company', url: 'https://edgeline-co.com' }],
   creator: 'ELC Company',
-  icons: {
-    icon: 'https://i.imgur.com/6Y7gfdU.png',
-  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -49,7 +46,7 @@ export const siteMetadata: Metadata = {
     description: 'Official website for ELC Company (Edge Line). شركة ELC رائدة في خدمات المقاولات والتصميم الداخلي وإدارة المشاريع المتكاملة في الرياض.',
     images: [
       {
-        url: 'https://i.imgur.com/6Y7gfdU.png', 
+        url: 'https://i.imgur.com/6Y7gfdU.png',
         width: 1200,
         height: 630,
         alt: 'ELC Company (Edge Line) - Construction and Design',
